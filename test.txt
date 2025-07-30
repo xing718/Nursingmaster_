@@ -1,5 +1,5 @@
-{
+[{
   "name": "胡晓兴",
   "say": "hahaha",
   "question":"完成了吗？"
-}
+}]
