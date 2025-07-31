@@ -1,1 +1,1 @@
-[{"name":"有孔双极","deviceCode":"123","availableCount":10,"usedRecords":[{"住院号":"22085","使用日期":"2025年07月31日","签名":"黄晓帆"}]},{"name":"马里兰","deviceCode":"123456","availableCount":10,"usedRecords":[]}]
+[{"name":"有孔双极","deviceCode":"123","availableCount":10,"usedRecords":[{"住院号":"22085","使用日期":"2025年07月31日","签名":"黄晓帆"}]},{"name":"马里兰","deviceCode":"123456","availableCount":10,"usedRecords":[]},{"name":"永久电勾","deviceCode":"123456","availableCount":5,"usedRecords":[]}]
