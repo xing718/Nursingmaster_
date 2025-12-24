@@ -1,5 +1,512 @@
-2025-12-24 11:12:14.936/DEBUG: 已清空本地文件: /sdcard/log.txt
-2025-12-24 11:12:14.937/TRACE: 
+2025-12-21 10:34:08.727/TRACE: 开始运行[/storage/emulated/0/脚本/达芬奇/上传 (多个文件).js]
+2025-12-21 10:34:12.369/DEBUG: 文件 device_log.txt 上传成功
+2025-12-21 10:34:12.371/DEBUG: 响应内容: {"content":{"name":"device_log.txt","path":"device_log.txt","sha":"ec845eeae9453602200f216c144714bf406e336c","size":119986,"url":"https://api.github.com/repos/xing718/sss/contents/device_log.txt?ref=main","html_url":"https://github.com/xing718/sss/blob/main/device_log.txt","git_url":"https://api.github.com/repos/xing718/sss/git/blobs/ec845eeae9453602200f216c144714bf406e336c","download_url":"https://raw.githubusercontent.com/xing718/sss/main/device_log.txt","type":"file","_links":{"self":"https://api.github.com/repos/xing718/sss/contents/device_log.txt?ref=main","git":"https://api.github.com/repos/xing718/sss/git/blobs/ec845eeae9453602200f216c144714bf406e336c","html":"https://github.com/xing718/sss/blob/main/device_log.txt"}},"commit":{"sha":"89af2f52b25ce0e294dc4956b23d0d965fb5cbce","node_id":"C_kwDOPaTpL9oAKDg5YWYyZjUyYjI1Y2UwZTI5NGRjNDk1NmIyM2QwZDk2NWZiNWNiY2U","url":"https://api.github.com/repos/xing718/sss/git/commits/89af2f52b25ce0e294dc4956b23d0d965fb5cbce","html_url":"https://github.com/xing718/sss/commit/89af2f52b25ce0e294dc4956b23d0d965fb5cbce","author":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:34:11Z"},"committer":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:34:11Z"},"tree":{"sha":"36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291","url":"https://api.github.com/repos/xing718/sss/git/trees/36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291"},"message":"update from AutoJS","parents":[{"sha":"3e68a0491acf789532c2ce22bc55080ae8569597","url":"https://api.github.com/repos/xing718/sss/git/commits/3e68a0491acf789532c2ce22bc55080ae8569597","html_url":"https://github.com/xing718/sss/commit/3e68a0491acf789532c2ce22bc55080ae8569597"}],"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null,"verified_at":null}}}
+2025-12-21 10:34:14.292/DEBUG: 文件 device_place.txt 上传成功
+2025-12-21 10:34:14.294/DEBUG: 响应内容: {"content":{"name":"device_place.txt","path":"device_place.txt","sha":"052a41473d2b3d4156dece29765872f56b2eb402","size":29741,"url":"https://api.github.com/repos/xing718/sss/contents/device_place.txt?ref=main","html_url":"https://github.com/xing718/sss/blob/main/device_place.txt","git_url":"https://api.github.com/repos/xing718/sss/git/blobs/052a41473d2b3d4156dece29765872f56b2eb402","download_url":"https://raw.githubusercontent.com/xing718/sss/main/device_place.txt","type":"file","_links":{"self":"https://api.github.com/repos/xing718/sss/contents/device_place.txt?ref=main","git":"https://api.github.com/repos/xing718/sss/git/blobs/052a41473d2b3d4156dece29765872f56b2eb402","html":"https://github.com/xing718/sss/blob/main/device_place.txt"}},"commit":{"sha":"3d56517f98dbe657f62a37cea8110eae0ae297bd","node_id":"C_kwDOPaTpL9oAKDNkNTY1MTdmOThkYmU2NTdmNjJhMzdjZWE4MTEwZWFlMGFlMjk3YmQ","url":"https://api.github.com/repos/xing718/sss/git/commits/3d56517f98dbe657f62a37cea8110eae0ae297bd","html_url":"https://github.com/xing718/sss/commit/3d56517f98dbe657f62a37cea8110eae0ae297bd","author":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:34:13Z"},"committer":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:34:13Z"},"tree":{"sha":"36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291","url":"https://api.github.com/repos/xing718/sss/git/trees/36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291"},"message":"update from AutoJS","parents":[{"sha":"89af2f52b25ce0e294dc4956b23d0d965fb5cbce","url":"https://api.github.com/repos/xing718/sss/git/commits/89af2f52b25ce0e294dc4956b23d0d965fb5cbce","html_url":"https://github.com/xing718/sss/commit/89af2f52b25ce0e294dc4956b23d0d965fb5cbce"}],"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null,"verified_at":null}}}
+2025-12-21 10:34:16.850/DEBUG: 文件 device_data.txt 上传成功
+2025-12-21 10:34:16.852/DEBUG: 响应内容: {"content":{"name":"device_data.txt","path":"device_data.txt","sha":"580865516dbdfbf81f5781209c0dc1557e1a2c3a","size":11146,"url":"https://api.github.com/repos/xing718/sss/contents/device_data.txt?ref=main","html_url":"https://github.com/xing718/sss/blob/main/device_data.txt","git_url":"https://api.github.com/repos/xing718/sss/git/blobs/580865516dbdfbf81f5781209c0dc1557e1a2c3a","download_url":"https://raw.githubusercontent.com/xing718/sss/main/device_data.txt","type":"file","_links":{"self":"https://api.github.com/repos/xing718/sss/contents/device_data.txt?ref=main","git":"https://api.github.com/repos/xing718/sss/git/blobs/580865516dbdfbf81f5781209c0dc1557e1a2c3a","html":"https://github.com/xing718/sss/blob/main/device_data.txt"}},"commit":{"sha":"ce5f0972f2fa6bcad1c0e7f34bd3e324ca1325d5","node_id":"C_kwDOPaTpL9oAKGNlNWYwOTcyZjJmYTZiY2FkMWMwZTdmMzRiZDNlMzI0Y2ExMzI1ZDU","url":"https://api.github.com/repos/xing718/sss/git/commits/ce5f0972f2fa6bcad1c0e7f34bd3e324ca1325d5","html_url":"https://github.com/xing718/sss/commit/ce5f0972f2fa6bcad1c0e7f34bd3e324ca1325d5","author":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:34:16Z"},"committer":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:34:16Z"},"tree":{"sha":"36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291","url":"https://api.github.com/repos/xing718/sss/git/trees/36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291"},"message":"update from AutoJS","parents":[{"sha":"3d56517f98dbe657f62a37cea8110eae0ae297bd","url":"https://api.github.com/repos/xing718/sss/git/commits/3d56517f98dbe657f62a37cea8110eae0ae297bd","html_url":"https://github.com/xing718/sss/commit/3d56517f98dbe657f62a37cea8110eae0ae297bd"}],"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null,"verified_at":null}}}
+2025-12-21 10:34:16.853/TRACE: 
 ------------
-[/storage/emulated/0/脚本/小助手。/上传日志.js]运行结束，用时7.798000秒
-2025-12-24 11:12:21.588/TRACE: 开始运行[/storage/emulated/0/脚本/小助手。/上传日志.js]
+[/storage/emulated/0/脚本/达芬奇/上传 (多个文件).js]运行结束，用时8.125000秒
+2025-12-21 10:49:29.021/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-21 10:49:29.049/DEBUG: 已有悬浮窗权限
+2025-12-21 10:49:29.067/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-21 10:49:29.081/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at /data/user/0/com.xx.xzsgf/files/project/main.js:26:0
+ 
+2025-12-21 10:49:29.512/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-21 10:52:06.900/TRACE: 开始运行[/storage/emulated/0/脚本/达芬奇/上传 (多个文件).js]
+2025-12-21 10:52:06.916/DEBUG: https://api.github.com/repos/xing718/sss/contents/device_log.txt
+2025-12-21 10:52:09.764/DEBUG: 文件 device_log.txt 上传成功
+2025-12-21 10:52:09.766/DEBUG: 响应内容: {"content":{"name":"device_log.txt","path":"device_log.txt","sha":"ec845eeae9453602200f216c144714bf406e336c","size":119986,"url":"https://api.github.com/repos/xing718/sss/contents/device_log.txt?ref=main","html_url":"https://github.com/xing718/sss/blob/main/device_log.txt","git_url":"https://api.github.com/repos/xing718/sss/git/blobs/ec845eeae9453602200f216c144714bf406e336c","download_url":"https://raw.githubusercontent.com/xing718/sss/main/device_log.txt","type":"file","_links":{"self":"https://api.github.com/repos/xing718/sss/contents/device_log.txt?ref=main","git":"https://api.github.com/repos/xing718/sss/git/blobs/ec845eeae9453602200f216c144714bf406e336c","html":"https://github.com/xing718/sss/blob/main/device_log.txt"}},"commit":{"sha":"f5400a69321d35a64504753f5ae766a5b156088b","node_id":"C_kwDOPaTpL9oAKGY1NDAwYTY5MzIxZDM1YTY0NTA0NzUzZjVhZTc2NmE1YjE1NjA4OGI","url":"https://api.github.com/repos/xing718/sss/git/commits/f5400a69321d35a64504753f5ae766a5b156088b","html_url":"https://github.com/xing718/sss/commit/f5400a69321d35a64504753f5ae766a5b156088b","author":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:52:09Z"},"committer":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:52:09Z"},"tree":{"sha":"36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291","url":"https://api.github.com/repos/xing718/sss/git/trees/36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291"},"message":"update from AutoJS","parents":[{"sha":"ce5f0972f2fa6bcad1c0e7f34bd3e324ca1325d5","url":"https://api.github.com/repos/xing718/sss/git/commits/ce5f0972f2fa6bcad1c0e7f34bd3e324ca1325d5","html_url":"https://github.com/xing718/sss/commit/ce5f0972f2fa6bcad1c0e7f34bd3e324ca1325d5"}],"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null,"verified_at":null}}}
+2025-12-21 10:52:09.777/DEBUG: https://api.github.com/repos/xing718/sss/contents/device_place.txt
+2025-12-21 10:52:11.145/DEBUG: 文件 device_place.txt 上传成功
+2025-12-21 10:52:11.146/DEBUG: 响应内容: {"content":{"name":"device_place.txt","path":"device_place.txt","sha":"052a41473d2b3d4156dece29765872f56b2eb402","size":29741,"url":"https://api.github.com/repos/xing718/sss/contents/device_place.txt?ref=main","html_url":"https://github.com/xing718/sss/blob/main/device_place.txt","git_url":"https://api.github.com/repos/xing718/sss/git/blobs/052a41473d2b3d4156dece29765872f56b2eb402","download_url":"https://raw.githubusercontent.com/xing718/sss/main/device_place.txt","type":"file","_links":{"self":"https://api.github.com/repos/xing718/sss/contents/device_place.txt?ref=main","git":"https://api.github.com/repos/xing718/sss/git/blobs/052a41473d2b3d4156dece29765872f56b2eb402","html":"https://github.com/xing718/sss/blob/main/device_place.txt"}},"commit":{"sha":"a5a1cc790532c4095231a2aba599fd39eb3405c5","node_id":"C_kwDOPaTpL9oAKGE1YTFjYzc5MDUzMmM0MDk1MjMxYTJhYmE1OTlmZDM5ZWIzNDA1YzU","url":"https://api.github.com/repos/xing718/sss/git/commits/a5a1cc790532c4095231a2aba599fd39eb3405c5","html_url":"https://github.com/xing718/sss/commit/a5a1cc790532c4095231a2aba599fd39eb3405c5","author":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:52:10Z"},"committer":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:52:10Z"},"tree":{"sha":"36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291","url":"https://api.github.com/repos/xing718/sss/git/trees/36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291"},"message":"update from AutoJS","parents":[{"sha":"f5400a69321d35a64504753f5ae766a5b156088b","url":"https://api.github.com/repos/xing718/sss/git/commits/f5400a69321d35a64504753f5ae766a5b156088b","html_url":"https://github.com/xing718/sss/commit/f5400a69321d35a64504753f5ae766a5b156088b"}],"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null,"verified_at":null}}}
+2025-12-21 10:52:11.155/DEBUG: https://api.github.com/repos/xing718/sss/contents/device_data.txt
+2025-12-21 10:52:12.932/DEBUG: 文件 device_data.txt 上传成功
+2025-12-21 10:52:12.933/DEBUG: 响应内容: {"content":{"name":"device_data.txt","path":"device_data.txt","sha":"580865516dbdfbf81f5781209c0dc1557e1a2c3a","size":11146,"url":"https://api.github.com/repos/xing718/sss/contents/device_data.txt?ref=main","html_url":"https://github.com/xing718/sss/blob/main/device_data.txt","git_url":"https://api.github.com/repos/xing718/sss/git/blobs/580865516dbdfbf81f5781209c0dc1557e1a2c3a","download_url":"https://raw.githubusercontent.com/xing718/sss/main/device_data.txt","type":"file","_links":{"self":"https://api.github.com/repos/xing718/sss/contents/device_data.txt?ref=main","git":"https://api.github.com/repos/xing718/sss/git/blobs/580865516dbdfbf81f5781209c0dc1557e1a2c3a","html":"https://github.com/xing718/sss/blob/main/device_data.txt"}},"commit":{"sha":"abe90d65f520b376412c2b4408f2f4948db4b6ad","node_id":"C_kwDOPaTpL9oAKGFiZTkwZDY1ZjUyMGIzNzY0MTJjMmI0NDA4ZjJmNDk0OGRiNGI2YWQ","url":"https://api.github.com/repos/xing718/sss/git/commits/abe90d65f520b376412c2b4408f2f4948db4b6ad","html_url":"https://github.com/xing718/sss/commit/abe90d65f520b376412c2b4408f2f4948db4b6ad","author":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:52:12Z"},"committer":{"name":"xing718","email":"61023100+xing718@users.noreply.github.com","date":"2025-12-21T02:52:12Z"},"tree":{"sha":"36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291","url":"https://api.github.com/repos/xing718/sss/git/trees/36b1ea06c2c9ffcd5ce5624a04dfb253ccfcf291"},"message":"update from AutoJS","parents":[{"sha":"a5a1cc790532c4095231a2aba599fd39eb3405c5","url":"https://api.github.com/repos/xing718/sss/git/commits/a5a1cc790532c4095231a2aba599fd39eb3405c5","html_url":"https://github.com/xing718/sss/commit/a5a1cc790532c4095231a2aba599fd39eb3405c5"}],"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null,"verified_at":null}}}
+2025-12-21 10:52:12.934/TRACE: 
+------------
+[/storage/emulated/0/脚本/达芬奇/上传 (多个文件).js]运行结束，用时6.032000秒
+2025-12-21 10:53:07.143/TRACE: 开始运行[/storage/emulated/0/脚本/达芬奇/上传 (多个文件).js]
+2025-12-21 10:53:07.148/DEBUG: https://api.github.com/repos/xing718/Nursingmaster_/contents/device_log.txt
+2025-12-21 10:53:19.978/DEBUG: 文件 device_log.txt 上传失败，状态码: 201
+2025-12-21 10:53:19.984/DEBUG: https://api.github.com/repos/xing718/Nursingmaster_/contents/device_place.txt
+2025-12-21 10:53:27.342/DEBUG: 文件 device_place.txt 上传失败，状态码: 201
+2025-12-21 10:53:27.346/DEBUG: https://api.github.com/repos/xing718/Nursingmaster_/contents/device_data.txt
+2025-12-21 10:53:34.975/DEBUG: 文件 device_data.txt 上传失败，状态码: 201
+2025-12-21 10:53:34.976/TRACE: 
+------------
+[/storage/emulated/0/脚本/达芬奇/上传 (多个文件).js]运行结束，用时27.833000秒
+2025-12-22 21:15:42.869/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-22 21:15:42.893/DEBUG: 已有悬浮窗权限
+2025-12-22 21:15:42.912/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-22 21:15:42.933/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at /data/user/0/com.xx.xzsgf/files/project/main.js:26:0
+ 
+2025-12-22 21:15:43.249/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-22 23:11:00.779/TRACE: 开始运行[/storage/emulated/0/脚本/小助手/main.js]
+2025-12-22 23:11:00.812/DEBUG: 已有悬浮窗权限
+2025-12-22 23:11:00.844/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-22 23:11:01.277/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-22 23:11:03.289/DEBUG: 瑞科消息  心跳开始
+2025-12-22 23:11:03.292/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-22 23:11:03.494/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-22 23:11:09.821/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:12.837/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:16.175/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:19.186/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:22.207/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:25.242/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:28.262/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:31.482/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:34.786/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:37.871/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:40.879/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:43.981/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:47.041/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:50.079/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:53.153/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:56.167/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:11:59.188/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:12:02.304/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:12:05.398/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:12:07.238/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手/main.js]运行结束，用时66.458000秒
+2025-12-22 23:12:07.257/DEBUG: 错误信息: com.stardust.autojs.runtime.exception.ScriptInterruptedException: null
+2025-12-22 23:12:12.289/DEBUG: 未找到题目1，等待3秒
+2025-12-22 23:13:46.343/TRACE: 开始运行[/storage/emulated/0/脚本/小助手。/main.js]
+2025-12-22 23:13:46.379/DEBUG: 已有悬浮窗权限
+2025-12-22 23:13:46.422/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-22 23:13:46.739/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-22 23:13:48.843/DEBUG: 瑞科消息  心跳开始
+2025-12-22 23:13:48.850/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-22 23:13:49.032/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-22 23:13:50.443/DEBUG:  开启线程
+2025-12-22 23:13:51.533/ERROR: 题库 'tiku' 中未找到关于 "undefined" 的答案
+2025-12-22 23:13:54.971/ERROR: 题库 'tiku' 中未找到关于 "undefined" 的答案
+2025-12-22 23:13:58.014/DEBUG: 题目:尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为
+2025-12-22 23:13:58.021/ERROR: 题库 'tiku' 中未找到关于 "尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为" 的答案
+2025-12-22 23:14:01.119/DEBUG: 题目:尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为
+2025-12-22 23:14:01.128/ERROR: 题库 'tiku' 中未找到关于 "尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为" 的答案
+2025-12-22 23:14:01.944/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时15.601000秒
+2025-12-22 23:14:01.947/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时15.604000秒
+2025-12-22 23:17:38.002/TRACE: 开始运行[/storage/emulated/0/脚本/小助手。/main.js]
+2025-12-22 23:17:38.065/DEBUG: 已有悬浮窗权限
+2025-12-22 23:17:38.130/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-22 23:17:38.537/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-22 23:17:40.617/DEBUG: 瑞科消息  心跳开始
+2025-12-22 23:17:40.624/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-22 23:17:40.817/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-22 23:17:42.616/DEBUG:  开启线程
+2025-12-22 23:17:43.713/ERROR: 题库 'tiku' 中未找到关于 "undefined" 的答案
+2025-12-22 23:17:46.754/DEBUG: 题目:尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为
+2025-12-22 23:17:46.760/ERROR: 题库 'tiku' 中未找到关于 "尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为" 的答案
+2025-12-22 23:17:49.823/DEBUG: 题目:尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为
+2025-12-22 23:17:49.835/ERROR: 题库 'tiku' 中未找到关于 "尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为" 的答案
+2025-12-22 23:17:52.861/DEBUG: 题目:尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为
+2025-12-22 23:17:52.872/ERROR: 题库 'tiku' 中未找到关于 "尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为" 的答案
+2025-12-22 23:17:55.911/DEBUG: 题目:尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为
+2025-12-22 23:17:55.921/ERROR: 题库 'tiku' 中未找到关于 "尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为" 的答案
+2025-12-22 23:17:59.022/DEBUG: 题目:尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为
+2025-12-22 23:17:59.026/ERROR: 题库 'tiku' 中未找到关于 "尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为" 的答案
+2025-12-22 23:17:59.475/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时21.471000秒
+2025-12-22 23:17:59.482/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时21.478000秒
+2025-12-22 23:18:50.276/TRACE: 开始运行[/storage/emulated/0/脚本/小助手。/main.js]
+2025-12-22 23:18:50.322/DEBUG: 已有悬浮窗权限
+2025-12-22 23:18:50.357/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-22 23:18:50.684/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-22 23:18:52.641/DEBUG: 瑞科消息  心跳开始
+2025-12-22 23:18:52.648/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-22 23:18:52.855/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-22 23:18:54.142/DEBUG:  开启线程
+2025-12-22 23:18:55.323/ERROR: 题库'tiku'中未找到答案
+2025-12-22 23:18:58.386/DEBUG: 题目:尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为
+2025-12-22 23:18:58.394/ERROR: 题库'tiku'中未找到答案
+2025-12-22 23:19:01.419/DEBUG: 题目:尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为
+2025-12-22 23:19:01.430/ERROR: 题库'tiku'中未找到答案
+2025-12-22 23:19:04.463/DEBUG: 题目:尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物暴露等级为
+2025-12-22 23:19:04.475/ERROR: 题库'tiku'中未找到答案
+2025-12-22 23:19:06.245/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时15.968000秒
+2025-12-24 13:37:37.355/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-24 13:37:37.398/DEBUG: 已有悬浮窗权限
+2025-12-24 13:37:37.425/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-24 13:37:37.505/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at /data/user/0/com.xx.xzsgf/files/project/main.js:26:0
+ 
+2025-12-24 13:38:18.090/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-24 13:38:18.128/DEBUG: 已有悬浮窗权限
+2025-12-24 13:38:18.156/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2025-12-24 13:38:18.185/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-24 13:38:18.521/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-24 13:38:25.608/TRACE: 无障碍服务已创建(49dc1e)
+2025-12-24 13:38:25.704/TRACE: 无障碍服务已连接(49dc1e): 稳定模式: false
+2025-12-24 13:38:29.789/DEBUG: 瑞科消息  心跳开始
+2025-12-24 13:38:29.796/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-24 13:38:29.950/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-24 13:38:34.628/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/下载题库.js]
+2025-12-24 13:38:34.630/DEBUG: 🚀 脚本启动，开始下载必要文件...
+2025-12-24 13:38:34.631/DEBUG: 📦 开始下载文件...
+2025-12-24 13:38:34.632/DEBUG: ⏳ 正在下载 下载小伙伴的题库 (1/1)...
+2025-12-24 13:38:34.632/DEBUG: 🔗 URL: https://raw.githubusercontent.com/xing718/Nursingmaster_/main/增加题库.txt
+2025-12-24 13:38:35.834/DEBUG: ✅ 下载小伙伴的题库 下载成功! 本地路径: ./下载题库.txt, 大小: 0KB
+2025-12-24 13:38:35.834/DEBUG: 🎉 所有文件均已下载完成。
+2025-12-24 13:38:35.836/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/下载题库.js]运行结束，用时1.208000秒
+2025-12-24 13:39:00.326/DEBUG: 待更新按钮
+2025-12-24 13:39:44.978/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时86.887000秒
+2025-12-24 20:49:16.612/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-24 20:49:16.665/DEBUG: 已有悬浮窗权限
+2025-12-24 20:49:16.686/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-24 20:49:17.030/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-24 20:49:20.143/DEBUG: 瑞科消息  心跳开始
+2025-12-24 20:49:20.149/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-24 20:49:20.335/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-24 20:49:24.700/DEBUG:  开启线程
+2025-12-24 20:49:34.845/WARN: 问题内容不能为空
+2025-12-24 20:49:34.845/DEBUG: 答案:undefined
+2025-12-24 20:49:34.848/DEBUG: 请按小助手更新题库按钮，更新题库！
+2025-12-24 20:49:38.412/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时21.799000秒
+2025-12-24 20:49:38.416/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时21.803000秒
+2025-12-25 00:03:53.252/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-25 00:03:53.280/DEBUG: 已有悬浮窗权限
+2025-12-25 00:03:53.305/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:03:53.761/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:03:56.220/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:03:56.227/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:03:56.407/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:04:17.287/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时24.034000秒
+2025-12-25 00:04:17.295/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时24.042000秒
+2025-12-25 00:04:39.294/TRACE: 开始运行[/storage/emulated/0/脚本/小助手。/main.js]
+2025-12-25 00:04:39.319/DEBUG: 已有悬浮窗权限
+2025-12-25 00:04:39.343/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:04:39.749/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:04:42.930/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:04:42.939/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:04:43.126/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:04:51.044/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时11.749000秒
+2025-12-25 00:04:51.054/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时11.759000秒
+2025-12-25 00:04:59.153/TRACE: 开始运行[/storage/emulated/0/脚本/小助手。/下载tiku.js]
+2025-12-25 00:04:59.156/DEBUG: 🚀 脚本启动，开始下载必要文件...
+2025-12-25 00:04:59.157/DEBUG: 📦 开始下载文件...
+2025-12-25 00:04:59.157/DEBUG: ⏳ 正在下载 护理助手题库 (1/1)...
+2025-12-25 00:04:59.157/DEBUG: 🔗 URL: https://raw.githubusercontent.com/xing718/Nursingmaster_/main/tiku.db
+2025-12-25 00:05:38.954/DEBUG: ✅ 护理助手题库 下载成功! 本地路径: ./tiku.db, 大小: 17212KB
+2025-12-25 00:05:38.954/DEBUG: 🎉 所有文件均已下载完成。
+2025-12-25 00:05:38.955/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/下载tiku.js]运行结束，用时39.801000秒
+2025-12-25 00:06:06.155/TRACE: 开始运行[/storage/emulated/0/脚本/小助手。/main.js]
+2025-12-25 00:06:06.189/DEBUG: 已有悬浮窗权限
+2025-12-25 00:06:06.220/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:06:06.584/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:06:08.831/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:06:08.838/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:06:09.031/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:06:17.346/DEBUG: SELECT question,answer FROM tiku ORDER BY rowid DESC limit 20
+2025-12-25 00:06:17.348/DEBUG: 题库中未找到: 
+2025-12-25 00:06:17.349/DEBUG: 未找到
+2025-12-25 00:06:23.047/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时16.891000秒
+2025-12-25 00:06:23.067/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时16.911000秒
+2025-12-25 00:07:54.832/TRACE: 开始运行[/storage/emulated/0/脚本/小助手。/下载tiku.js]
+2025-12-25 00:07:54.842/DEBUG: 🚀 脚本启动，开始下载必要文件...
+2025-12-25 00:07:54.850/DEBUG: 📦 开始下载文件...
+2025-12-25 00:07:54.851/DEBUG: ⏳ 正在下载 护理助手题库 (1/1)...
+2025-12-25 00:07:54.851/DEBUG: 🔗 URL: https://raw.githubusercontent.com/xing718/Nursingmaster_/main/tiku.db
+2025-12-25 00:08:23.901/DEBUG: ✅ 护理助手题库 下载成功! 本地路径: ./tiku.db, 大小: 17212KB
+2025-12-25 00:08:23.901/DEBUG: 🎉 所有文件均已下载完成。
+2025-12-25 00:08:23.901/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/下载tiku.js]运行结束，用时29.069000秒
+2025-12-25 00:14:07.051/TRACE: 开始运行[/storage/emulated/0/脚本/小助手。/main.js]
+2025-12-25 00:14:07.112/DEBUG: 已有悬浮窗权限
+2025-12-25 00:14:07.172/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:14:07.538/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:14:10.011/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:14:10.018/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:14:10.215/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:14:13.830/DEBUG: SELECT question,answer FROM tiku ORDER BY rowid DESC limit 20
+2025-12-25 00:14:13.834/DEBUG: 题库中未找到: 
+2025-12-25 00:14:13.834/DEBUG: 未找到
+2025-12-25 00:14:18.827/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时11.776000秒
+2025-12-25 00:14:18.836/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时11.785000秒
+2025-12-25 00:15:14.785/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-25 00:15:14.821/DEBUG: 已有悬浮窗权限
+2025-12-25 00:15:14.845/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:15:15.209/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:15:17.264/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:15:17.271/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:15:17.580/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:15:24.006/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时9.221000秒
+2025-12-25 00:15:24.006/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:24.006/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:24.014/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时9.229000秒
+2025-12-25 00:15:24.015/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:24.015/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:28.082/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-25 00:15:28.105/DEBUG: 已有悬浮窗权限
+2025-12-25 00:15:28.124/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:15:28.433/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:15:30.593/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:15:30.599/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:15:30.791/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:15:36.012/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时7.930000秒
+2025-12-25 00:15:36.012/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:36.013/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:36.020/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时7.937000秒
+2025-12-25 00:15:36.020/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:36.020/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:42.433/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-25 00:15:42.466/DEBUG: 已有悬浮窗权限
+2025-12-25 00:15:42.494/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:15:42.998/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:15:45.848/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:15:45.856/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:15:46.035/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:15:53.440/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时11.007000秒
+2025-12-25 00:15:53.441/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:53.441/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:53.452/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时11.019000秒
+2025-12-25 00:15:53.453/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:53.453/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:15:59.550/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-25 00:15:59.569/DEBUG: 已有悬浮窗权限
+2025-12-25 00:15:59.587/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:15:59.906/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:16:02.440/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:16:02.446/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:16:02.613/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:16:13.705/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时14.155000秒
+2025-12-25 00:16:13.705/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:16:13.705/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:16:13.718/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时14.168000秒
+2025-12-25 00:16:13.718/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:16:13.718/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:16:16.086/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-25 00:16:16.115/DEBUG: 已有悬浮窗权限
+2025-12-25 00:16:16.145/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:16:16.453/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:16:18.762/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:16:18.772/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:16:18.974/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:16:22.475/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时6.389000秒
+2025-12-25 00:16:22.475/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:16:22.475/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:16:22.482/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时6.396000秒
+2025-12-25 00:16:22.482/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:16:22.482/ERROR: TypeError: Cannot call method "setText" of undefined
+    at main.js:252:0
+    at file:///android_asset/modules/__ui__.js:138:0
+    at main.js:248:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2025-12-25 00:16:24.587/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-25 00:16:24.606/DEBUG: 已有悬浮窗权限
+2025-12-25 00:16:24.625/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:16:24.976/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:16:28.477/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:16:28.483/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:16:28.654/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:16:32.496/DEBUG: SELECT question,answer FROM tiku ORDER BY rowid DESC limit 20
+2025-12-25 00:16:32.511/ERROR: Thread[main,5]: TypeError: Cannot call method "setText" of undefined
+    at file:///android_asset/modules/__ui__.js:154:0
+    at main.js:292:0
+ 
+2025-12-25 00:16:36.353/DEBUG: 已经是第一条了！
+2025-12-25 00:16:56.901/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时32.314000秒
+2025-12-25 00:16:56.906/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时32.319000秒
+2025-12-25 00:18:06.015/TRACE: 开始运行[/storage/emulated/0/脚本/小助手。/main.js]
+2025-12-25 00:18:06.069/DEBUG: 已有悬浮窗权限
+2025-12-25 00:18:06.128/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:18:06.513/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:18:08.809/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:18:08.816/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:18:09.022/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:18:13.236/DEBUG: 请输入关键字
+2025-12-25 00:18:20.413/DEBUG: 请输入关键字
+2025-12-25 00:18:25.924/DEBUG: SELECT question,answer FROM tiku WHERE question LIKE '%大隐静脉穿入%'
+2025-12-25 00:18:26.016/DEBUG: 题库中未找到: 大隐静脉穿入
+2025-12-25 00:18:26.017/DEBUG: 未找到
+2025-12-25 00:18:44.149/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-25 00:18:44.188/DEBUG: 已有悬浮窗权限
+2025-12-25 00:18:44.222/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:18:44.667/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:19:18.797/TRACE: 
+------------
+[/storage/emulated/0/脚本/小助手。/main.js]运行结束，用时72.781000秒
+2025-12-25 00:19:18.873/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时34.724000秒
+2025-12-25 00:19:18.881/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时34.732000秒
+2025-12-25 00:20:20.559/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-25 00:20:20.588/DEBUG: 已有悬浮窗权限
+2025-12-25 00:20:20.607/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:20:20.951/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:20:23.176/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时2.617000秒
+2025-12-25 00:24:55.194/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2025-12-25 00:24:55.235/DEBUG: 已有悬浮窗权限
+2025-12-25 00:24:55.272/DEBUG: 瑞科网络验证SDK v5.4
+2025-12-25 00:24:55.653/DEBUG: 瑞科消息 瑞科初化化成功
+2025-12-25 00:24:57.951/DEBUG: 瑞科消息  心跳开始
+2025-12-25 00:24:57.958/DEBUG: 瑞科消息 瑞科登录成功
+2025-12-25 00:24:58.134/DEBUG: 瑞科消息  心跳正常运行中
+2025-12-25 00:25:01.500/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/上传日志.js]
