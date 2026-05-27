@@ -1,8 +1,2703 @@
-2026-05-23 22:14:10.535/DEBUG: 已清空本地文件: /sdcard/log.txt
-2026-05-23 22:14:10.535/TRACE: 
+2026-05-25 20:29:56.510/DEBUG: 没有悬浮窗权限,将跳转到开启悬浮窗权限界面
+2026-05-25 20:29:56.548/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-25 20:29:56.642/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:29:57.596/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:29:58.712/TRACE: 
 ------------
-[/data/user/0/com.xx.xzsgf/files/project/上传日志.js]运行结束，用时10.209000秒
-2026-05-23 22:14:20.807/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/上传日志.js]
-2026-05-23 22:14:22.667/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/上传日志.js]
-2026-05-23 22:14:22.865/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/上传日志.js]
-2026-05-23 22:14:23.038/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/上传日志.js]
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时2.297000秒
+2026-05-25 20:29:58.714/ERROR: 
+java.lang.SecurityException: 没有悬浮窗权限
+	at com.stardust.autojs.core.ui.dialog.JsDialog.showInner(Unknown Source:47)
+	at com.stardust.autojs.core.ui.dialog.JsDialog.show(Unknown Source:27)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.mozilla.javascript.MemberBox.invoke(Unknown Source:39)
+	at org.mozilla.javascript.NativeJavaMethod.call(Unknown Source:188)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.Synchronizer.call(Unknown Source:21)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.ContextFactory.doTopCall(Unknown Source:0)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(Unknown Source:33)
+	at org.mozilla.javascript.InterpretedFunction.exec(Unknown Source:22)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.doExecution(Unknown Source:46)
+	at b2.c.doExecution(SourceFile:10)
+	at b2.a.doExecution(SourceFile:2)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.execute(Unknown Source:20)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.execute$lambda-0(Unknown Source:10)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.h(Unknown Source:0)
+	at com.stardust.autojs.engine.a.run(Unknown Source:18)
+	at android.os.Handler.handleCallback(Handler.java:1014)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loopOnce(Looper.java:250)
+	at android.os.Looper.loop(Looper.java:340)
+	at android.app.ActivityThread.main(ActivityThread.java:9930)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+2026-05-25 20:29:58.716/ERROR: 
+java.lang.SecurityException: 没有悬浮窗权限
+	at com.stardust.autojs.core.ui.dialog.JsDialog.showInner(Unknown Source:47)
+	at com.stardust.autojs.core.ui.dialog.JsDialog.show(Unknown Source:27)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.mozilla.javascript.MemberBox.invoke(Unknown Source:39)
+	at org.mozilla.javascript.NativeJavaMethod.call(Unknown Source:188)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.Synchronizer.call(Unknown Source:21)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.ContextFactory.doTopCall(Unknown Source:0)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(Unknown Source:33)
+	at org.mozilla.javascript.InterpretedFunction.exec(Unknown Source:22)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.doExecution(Unknown Source:46)
+	at b2.c.doExecution(SourceFile:10)
+	at b2.a.doExecution(SourceFile:2)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.execute(Unknown Source:20)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.execute$lambda-0(Unknown Source:10)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.h(Unknown Source:0)
+	at com.stardust.autojs.engine.a.run(Unknown Source:18)
+	at android.os.Handler.handleCallback(Handler.java:1014)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loopOnce(Looper.java:250)
+	at android.os.Looper.loop(Looper.java:340)
+	at android.app.ActivityThread.main(ActivityThread.java:9930)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+2026-05-25 20:29:58.770/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时2.355000秒
+2026-05-25 20:29:58.770/ERROR: 
+java.lang.SecurityException: 没有悬浮窗权限
+	at com.stardust.autojs.core.ui.dialog.JsDialog.showInner(Unknown Source:47)
+	at com.stardust.autojs.core.ui.dialog.JsDialog.show(Unknown Source:27)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.mozilla.javascript.MemberBox.invoke(Unknown Source:39)
+	at org.mozilla.javascript.NativeJavaMethod.call(Unknown Source:188)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.Synchronizer.call(Unknown Source:21)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.ContextFactory.doTopCall(Unknown Source:0)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(Unknown Source:33)
+	at org.mozilla.javascript.InterpretedFunction.exec(Unknown Source:22)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.doExecution(Unknown Source:46)
+	at b2.c.doExecution(SourceFile:10)
+	at b2.a.doExecution(SourceFile:2)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.execute(Unknown Source:20)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.execute$lambda-0(Unknown Source:10)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.h(Unknown Source:0)
+	at com.stardust.autojs.engine.a.run(Unknown Source:18)
+	at android.os.Handler.handleCallback(Handler.java:1014)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loopOnce(Looper.java:250)
+	at android.os.Looper.loop(Looper.java:340)
+	at android.app.ActivityThread.main(ActivityThread.java:9930)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+2026-05-25 20:29:58.771/ERROR: 
+java.lang.SecurityException: 没有悬浮窗权限
+	at com.stardust.autojs.core.ui.dialog.JsDialog.showInner(Unknown Source:47)
+	at com.stardust.autojs.core.ui.dialog.JsDialog.show(Unknown Source:27)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.mozilla.javascript.MemberBox.invoke(Unknown Source:39)
+	at org.mozilla.javascript.NativeJavaMethod.call(Unknown Source:188)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.Synchronizer.call(Unknown Source:21)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.ContextFactory.doTopCall(Unknown Source:0)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(Unknown Source:33)
+	at org.mozilla.javascript.InterpretedFunction.exec(Unknown Source:22)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.doExecution(Unknown Source:46)
+	at b2.c.doExecution(SourceFile:10)
+	at b2.a.doExecution(SourceFile:2)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.execute(Unknown Source:20)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.execute$lambda-0(Unknown Source:10)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.h(Unknown Source:0)
+	at com.stardust.autojs.engine.a.run(Unknown Source:18)
+	at android.os.Handler.handleCallback(Handler.java:1014)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loopOnce(Looper.java:250)
+	at android.os.Looper.loop(Looper.java:340)
+	at android.app.ActivityThread.main(ActivityThread.java:9930)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+2026-05-25 20:30:54.680/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:30:54.721/DEBUG: 已有悬浮窗权限
+2026-05-25 20:30:54.750/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-25 20:30:54.790/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:30:55.195/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:31:28.028/TRACE: 无障碍服务已创建(98b235a)
+2026-05-25 20:31:28.071/TRACE: 无障碍服务已连接(98b235a): 稳定模式: false
+2026-05-25 20:31:43.730/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:31:43.739/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:31:44.002/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:32:53.819/DEBUG:  开启线程
+2026-05-25 20:33:00.655/DEBUG: 有一个脚本已运行！
+2026-05-25 20:33:07.386/WARN: 问题内容不能为空
+2026-05-25 20:33:07.387/DEBUG: 文档搜索
+2026-05-25 20:33:07.388/DEBUG: 答案:undefined
+2026-05-25 20:33:07.394/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:33:09.072/WARN: 问题内容不能为空
+2026-05-25 20:33:09.073/DEBUG: 文档搜索
+2026-05-25 20:33:09.074/DEBUG: 答案:undefined
+2026-05-25 20:33:09.083/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:33:12.425/WARN: 问题内容不能为空
+2026-05-25 20:33:12.426/DEBUG: 文档搜索
+2026-05-25 20:33:12.427/DEBUG: 答案:undefined
+2026-05-25 20:33:12.435/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:33:15.564/WARN: 问题内容不能为空
+2026-05-25 20:33:15.565/DEBUG: 文档搜索
+2026-05-25 20:33:15.566/DEBUG: 答案:undefined
+2026-05-25 20:33:15.573/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:33:19.266/WARN: 问题内容不能为空
+2026-05-25 20:33:19.266/DEBUG: 文档搜索
+2026-05-25 20:33:19.267/DEBUG: 答案:undefined
+2026-05-25 20:33:19.331/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:33:19.784/WARN: 问题内容不能为空
+2026-05-25 20:33:19.785/DEBUG: 文档搜索
+2026-05-25 20:33:19.785/DEBUG: 答案:undefined
+2026-05-25 20:33:19.793/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:33:21.833/WARN: 问题内容不能为空
+2026-05-25 20:33:21.834/DEBUG: 文档搜索
+2026-05-25 20:33:21.834/DEBUG: 答案:undefined
+2026-05-25 20:33:21.843/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:33:44.259/WARN: 问题内容不能为空
+2026-05-25 20:33:44.260/DEBUG: 文档搜索
+2026-05-25 20:33:44.261/DEBUG: 答案:undefined
+2026-05-25 20:33:44.274/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:33:45.021/WARN: 问题内容不能为空
+2026-05-25 20:33:45.021/DEBUG: 文档搜索
+2026-05-25 20:33:45.022/DEBUG: 答案:undefined
+2026-05-25 20:33:45.025/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:33:45.577/WARN: 问题内容不能为空
+2026-05-25 20:33:45.578/DEBUG: 文档搜索
+2026-05-25 20:33:45.578/DEBUG: 答案:undefined
+2026-05-25 20:33:45.581/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:33:46.037/WARN: 问题内容不能为空
+2026-05-25 20:33:46.037/DEBUG: 文档搜索
+2026-05-25 20:33:46.038/DEBUG: 答案:undefined
+2026-05-25 20:33:46.041/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:33:46.371/WARN: 问题内容不能为空
+2026-05-25 20:33:46.372/DEBUG: 文档搜索
+2026-05-25 20:33:46.373/DEBUG: 答案:undefined
+2026-05-25 20:33:46.375/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:34:14.610/DEBUG: 题目:重度耳聋指
+2026-05-25 20:34:14.930/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:34:15.292/INFO: 未知题型
+2026-05-25 20:34:20.725/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时206.044000秒
+2026-05-25 20:34:20.726/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:34:20.726/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:34:20.742/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时206.061000秒
+2026-05-25 20:34:20.743/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:34:20.743/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:34:23.824/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:34:23.887/DEBUG: 已有悬浮窗权限
+2026-05-25 20:34:23.941/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:34:24.289/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:34:26.768/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:34:26.775/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:34:27.024/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:34:53.449/DEBUG:  开启线程
+2026-05-25 20:34:59.114/WARN: 问题内容不能为空
+2026-05-25 20:34:59.114/DEBUG: 文档搜索
+2026-05-25 20:34:59.114/DEBUG: 答案:undefined
+2026-05-25 20:34:59.117/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:34:59.852/WARN: 问题内容不能为空
+2026-05-25 20:34:59.853/DEBUG: 文档搜索
+2026-05-25 20:34:59.853/DEBUG: 答案:undefined
+2026-05-25 20:34:59.857/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:35:08.443/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:08.599/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:09.262/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:09.419/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:09.654/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:09.819/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:09.970/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:10.134/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:10.362/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:10.521/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:10.781/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:10.929/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:11.528/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:11.691/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:12.011/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:12.174/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:15.074/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:15.238/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:15.343/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:15.508/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:17.038/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:17.204/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:18.319/DEBUG: 题目:重度耳聋指
+2026-05-25 20:35:18.482/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:35:58.630/WARN: 问题内容不能为空
+2026-05-25 20:35:58.630/DEBUG: 文档搜索
+2026-05-25 20:35:58.630/DEBUG: 答案:undefined
+2026-05-25 20:35:58.633/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:36:01.123/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时97.299000秒
+2026-05-25 20:36:01.123/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:36:01.124/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:36:01.135/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时97.311000秒
+2026-05-25 20:36:01.135/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:36:01.135/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:36:04.574/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:36:04.616/DEBUG: 已有悬浮窗权限
+2026-05-25 20:36:04.660/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:36:04.957/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:36:07.698/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:36:07.704/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:36:07.987/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:36:11.477/ERROR: Thread[main,5]: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:439:0
+ 
+2026-05-25 20:36:13.126/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时8.552000秒
+2026-05-25 20:36:13.126/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:36:13.126/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:36:13.138/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时8.564000秒
+2026-05-25 20:36:13.138/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:36:13.138/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:37:21.831/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:37:21.883/DEBUG: 已有悬浮窗权限
+2026-05-25 20:37:21.908/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-25 20:37:21.986/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:37:22.944/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:37:28.526/TRACE: 无障碍服务已创建(2cd7b97)
+2026-05-25 20:37:28.579/TRACE: 无障碍服务已连接(2cd7b97): 稳定模式: false
+2026-05-25 20:37:38.751/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:37:38.759/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:37:39.007/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:37:41.323/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时19.490000秒
+2026-05-25 20:37:41.324/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:37:41.324/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:37:41.336/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时19.503000秒
+2026-05-25 20:37:41.336/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:37:41.336/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:37:44.071/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:37:44.111/DEBUG: 已有悬浮窗权限
+2026-05-25 20:37:44.167/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:37:44.476/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:37:49.139/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:37:49.191/DEBUG: 已有悬浮窗权限
+2026-05-25 20:37:49.230/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-25 20:37:49.307/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:37:50.353/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:38:06.736/TRACE: 无障碍服务已创建(2cd7b97)
+2026-05-25 20:38:06.768/TRACE: 无障碍服务已连接(2cd7b97): 稳定模式: false
+2026-05-25 20:38:32.905/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:38:32.915/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:38:33.135/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:38:41.536/DEBUG:  开启线程
+2026-05-25 20:38:52.295/WARN: 问题内容不能为空
+2026-05-25 20:38:52.295/DEBUG: 文档搜索
+2026-05-25 20:38:52.296/DEBUG: 答案:undefined
+2026-05-25 20:38:52.300/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:38:52.533/WARN: 问题内容不能为空
+2026-05-25 20:38:52.534/DEBUG: 文档搜索
+2026-05-25 20:38:52.535/DEBUG: 答案:undefined
+2026-05-25 20:38:52.543/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:38:53.241/WARN: 问题内容不能为空
+2026-05-25 20:38:53.241/DEBUG: 文档搜索
+2026-05-25 20:38:53.242/DEBUG: 答案:undefined
+2026-05-25 20:38:53.251/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:38:54.117/WARN: 问题内容不能为空
+2026-05-25 20:38:54.117/DEBUG: 文档搜索
+2026-05-25 20:38:54.118/DEBUG: 答案:undefined
+2026-05-25 20:38:54.125/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:38:55.297/WARN: 问题内容不能为空
+2026-05-25 20:38:55.298/DEBUG: 文档搜索
+2026-05-25 20:38:55.299/DEBUG: 答案:undefined
+2026-05-25 20:38:55.305/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:39:06.593/DEBUG: 题目:重度耳聋指
+2026-05-25 20:39:06.826/DEBUG: 答案:需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:39:07.110/INFO: 未知题型
+2026-05-25 20:39:07.489/WARN: 问题内容不能为空
+2026-05-25 20:39:07.490/DEBUG: 文档搜索
+2026-05-25 20:39:07.490/DEBUG: 答案:undefined
+2026-05-25 20:39:07.494/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:39:10.047/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时80.907000秒
+2026-05-25 20:39:10.048/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:39:10.048/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:39:10.057/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时80.917000秒
+2026-05-25 20:39:10.058/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:39:10.058/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:39:12.686/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:39:12.731/DEBUG: 已有悬浮窗权限
+2026-05-25 20:39:12.788/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:39:13.119/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:39:16.544/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:39:16.551/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:39:16.792/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:39:17.887/DEBUG:  开启线程
+2026-05-25 20:39:20.586/WARN: 问题内容不能为空
+2026-05-25 20:39:20.587/DEBUG: 文档搜索
+2026-05-25 20:39:20.622/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:39:21.510/DEBUG: 有一个脚本已运行！
+2026-05-25 20:39:23.745/WARN: 问题内容不能为空
+2026-05-25 20:39:23.747/DEBUG: 文档搜索
+2026-05-25 20:39:23.757/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:39:23.938/DEBUG: 有一个脚本已运行！
+2026-05-25 20:39:26.821/WARN: 问题内容不能为空
+2026-05-25 20:39:26.822/DEBUG: 文档搜索
+2026-05-25 20:39:26.831/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:39:29.843/WARN: 问题内容不能为空
+2026-05-25 20:39:29.844/DEBUG: 文档搜索
+2026-05-25 20:39:29.854/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:39:32.869/DEBUG: 题目:重度耳聋指
+2026-05-25 20:39:32.949/DEBUG: 答案：需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:39:36.008/DEBUG: 题目:重度耳聋指
+2026-05-25 20:39:36.099/DEBUG: 答案：需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:39:39.167/DEBUG: 题目:重度耳聋指
+2026-05-25 20:39:39.261/DEBUG: 答案：需要耳旁大声说话才能听清,听阈在61~80dB
+2026-05-25 20:39:42.316/DEBUG: 题目:对血栓闭塞性脉管炎患者的护理措施错误的是
+2026-05-25 20:39:42.419/DEBUG: 答案：患肢处放热水袋加温
+2026-05-25 20:39:45.499/DEBUG: 题目:对血栓闭塞性脉管炎患者的护理措施错误的是
+2026-05-25 20:39:45.598/DEBUG: 答案：患肢处放热水袋加温
+2026-05-25 20:39:48.661/DEBUG: 题目:关节脱位的特征性表现是
+2026-05-25 20:39:48.751/DEBUG: 答案：弹性固定
+2026-05-25 20:39:51.831/DEBUG: 题目:患者男性66岁主诉咳喘2天不能平卧来诊查体神清紧张37630次分100次分16080呼吸急促口唇发绀可见三凹征查血升高既往有老慢支病史拟诊为肺部感染此患者属于何种呼吸困难
+2026-05-25 20:39:52.007/DEBUG: 答案：吸气性呼吸困难
+2026-05-25 20:39:55.107/WARN: 问题内容不能为空
+2026-05-25 20:39:55.108/DEBUG: 文档搜索
+2026-05-25 20:39:55.118/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:39:58.135/WARN: 问题内容不能为空
+2026-05-25 20:39:58.137/DEBUG: 文档搜索
+2026-05-25 20:39:58.147/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:39:59.100/ERROR: Thread[main,5]: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:451:0
+ 
+2026-05-25 20:40:01.167/WARN: 问题内容不能为空
+2026-05-25 20:40:01.167/DEBUG: 文档搜索
+2026-05-25 20:40:01.175/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:40:04.194/WARN: 问题内容不能为空
+2026-05-25 20:40:04.195/DEBUG: 文档搜索
+2026-05-25 20:40:04.200/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:40:04.274/DEBUG: SELECT question,answer FROM tiku ORDER BY rowid DESC limit 20
+2026-05-25 20:40:07.302/WARN: 问题内容不能为空
+2026-05-25 20:40:07.305/DEBUG: 文档搜索
+2026-05-25 20:40:07.316/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:40:07.870/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时55.184000秒
+2026-05-25 20:40:07.871/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:40:07.872/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:40:07.887/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时55.201000秒
+2026-05-25 20:40:07.888/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:40:07.888/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:40:10.302/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:40:10.355/DEBUG: 已有悬浮窗权限
+2026-05-25 20:40:10.408/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:40:10.693/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:40:14.192/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:40:14.199/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:40:14.383/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:40:17.625/DEBUG:  开启线程
+2026-05-25 20:40:21.871/WARN: 问题内容不能为空
+2026-05-25 20:40:21.871/DEBUG: 文档搜索
+2026-05-25 20:40:21.871/DEBUG: 答案:undefined
+2026-05-25 20:40:21.875/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:40:24.751/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时14.448000秒
+2026-05-25 20:40:24.751/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:40:24.751/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:40:24.765/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时14.463000秒
+2026-05-25 20:40:24.765/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:40:24.765/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:40:29.697/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:40:29.747/DEBUG: 已有悬浮窗权限
+2026-05-25 20:40:29.771/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-25 20:40:29.861/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:40:30.414/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:41:03.899/TRACE: 无障碍服务已创建(db01623)
+2026-05-25 20:41:03.931/TRACE: 无障碍服务已连接(db01623): 稳定模式: false
+2026-05-25 20:41:38.648/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:41:38.654/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:41:38.839/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:41:40.024/DEBUG:  开启线程
+2026-05-25 20:41:43.955/WARN: 问题内容不能为空
+2026-05-25 20:41:43.955/DEBUG: 文档搜索
+2026-05-25 20:41:43.956/DEBUG: 答案:undefined
+2026-05-25 20:41:43.958/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:41:46.218/WARN: 问题内容不能为空
+2026-05-25 20:41:46.218/DEBUG: 文档搜索
+2026-05-25 20:41:46.219/DEBUG: 答案:undefined
+2026-05-25 20:41:46.223/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:41:53.154/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:41:53.204/DEBUG: 已有悬浮窗权限
+2026-05-25 20:41:53.227/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-25 20:41:53.308/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:41:54.004/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:41:56.507/TRACE: 无障碍服务已创建(2cd7b97)
+2026-05-25 20:41:56.537/TRACE: 无障碍服务已连接(2cd7b97): 稳定模式: false
+2026-05-25 20:42:00.177/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:42:00.187/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:42:00.387/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:42:01.210/DEBUG:  开启线程
+2026-05-25 20:42:05.818/DEBUG: 有一个脚本已运行！
+2026-05-25 20:42:10.107/WARN: 问题内容不能为空
+2026-05-25 20:42:10.107/DEBUG: 文档搜索
+2026-05-25 20:42:10.107/DEBUG: 答案:undefined
+2026-05-25 20:42:10.110/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:42:24.357/DEBUG: 请输入关键字
+2026-05-25 20:42:38.622/DEBUG: 题目:关节脱位的特征性表现是
+2026-05-25 20:42:38.767/DEBUG: 答案:弹性固定
+2026-05-25 20:42:39.911/DEBUG: 题目:患者男性66岁主诉咳喘2天不能平卧来诊查体神清紧张37630次分100次分16080呼吸急促口唇发绀可见三凹征查血升高既往有老慢支病史拟诊为肺部感染此患者属于何种呼吸困难
+2026-05-25 20:42:40.065/DEBUG: 答案:吸气性呼吸困难
+2026-05-25 20:42:57.056/DEBUG: 题目:有关短暂性脑缺血发作的描述不正确的是
+2026-05-25 20:42:57.280/DEBUG: 答案:常有后遗症
+2026-05-25 20:42:57.428/INFO: 未知题型
+2026-05-25 20:42:58.860/DEBUG: 有一个脚本已运行！
+2026-05-25 20:43:01.208/DEBUG: 有一个脚本已运行！
+2026-05-25 20:43:02.005/DEBUG: 有一个脚本已运行！
+2026-05-25 20:43:07.716/DEBUG: SELECT question,answer FROM tiku ORDER BY rowid DESC limit 20
+2026-05-25 20:43:10.624/DEBUG: 重置完毕!
+2026-05-25 20:43:12.328/DEBUG: 已刷新首页数据
+2026-05-25 20:43:14.980/WARN: 问题内容不能为空
+2026-05-25 20:43:14.981/DEBUG: 文档搜索
+2026-05-25 20:43:14.981/DEBUG: 答案:undefined
+2026-05-25 20:43:14.983/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:43:33.372/DEBUG: 已刷新首页数据
+2026-05-25 20:43:34.719/DEBUG: 有一个脚本已运行！
+2026-05-25 20:43:40.864/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:43:40.913/DEBUG: 已有悬浮窗权限
+2026-05-25 20:43:40.973/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-25 20:43:41.055/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:43:41.524/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:43:47.183/TRACE: 无障碍服务已创建(bfccf4e)
+2026-05-25 20:43:47.219/TRACE: 无障碍服务已连接(bfccf4e): 稳定模式: false
+2026-05-25 20:43:50.541/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:43:50.549/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:43:50.747/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:43:51.809/DEBUG:  开启线程
+2026-05-25 20:43:53.274/WARN: 问题内容不能为空
+2026-05-25 20:43:53.275/DEBUG: 文档搜索
+2026-05-25 20:43:53.311/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:43:57.554/WARN: 问题内容不能为空
+2026-05-25 20:43:57.555/DEBUG: 文档搜索
+2026-05-25 20:43:57.662/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:44:02.546/WARN: 问题内容不能为空
+2026-05-25 20:44:02.547/DEBUG: 文档搜索
+2026-05-25 20:44:02.573/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:44:05.609/DEBUG: 题目:有关短暂性脑缺血发作的描述不正确的是
+2026-05-25 20:44:05.696/DEBUG: 答案：常有后遗症
+2026-05-25 20:44:08.816/DEBUG: 题目:颅前窝骨折时常损害视神经嗅神经等临床表现为
+2026-05-25 20:44:08.916/DEBUG: 答案：呈现“熊猫眼”外观,鼻腔出血等
+2026-05-25 20:44:12.028/DEBUG: 题目:颅前窝骨折时常损害视神经嗅神经等临床表现为
+2026-05-25 20:44:12.122/DEBUG: 答案：呈现“熊猫眼”外观,鼻腔出血等
+2026-05-25 20:44:15.247/DEBUG: 题目:患者女性20岁右耳持续流脓5年听力减退一次发热后耳痛检查示右耳鼓膜穿孔下列诊断哪个最确切
+2026-05-25 20:44:15.349/DEBUG: 答案：慢性化脓性中耳炎
+2026-05-25 20:44:18.466/DEBUG: 题目:颅内压增高患者床头抬高1530的主要目的是
+2026-05-25 20:44:18.559/DEBUG: 答案：有利于颅内静脉回流
+2026-05-25 20:44:21.709/DEBUG: 题目:颅内压增高患者床头抬高1530的主要目的是
+2026-05-25 20:44:21.809/DEBUG: 答案：有利于颅内静脉回流
+2026-05-25 20:44:24.910/DEBUG: 题目:确诊膀胱癌最可靠的方法是
+2026-05-25 20:44:25.009/DEBUG: 答案：膀胱镜检查
+2026-05-25 20:44:28.118/DEBUG: 题目:确诊膀胱癌最可靠的方法是
+2026-05-25 20:44:28.205/DEBUG: 答案：膀胱镜检查
+2026-05-25 20:44:31.259/DEBUG: 题目:严重膀胱损伤则需行
+2026-05-25 20:44:31.348/DEBUG: 答案：膀胱修补并造瘘
+2026-05-25 20:44:34.467/DEBUG: 题目:鉴别腹膜内型和腹膜外型的膀胱破裂最好的方法是
+2026-05-25 20:44:34.569/DEBUG: 答案：膀胱造影
+2026-05-25 20:44:37.660/DEBUG: 题目:鉴别腹膜内型和腹膜外型的膀胱破裂最好的方法是
+2026-05-25 20:44:37.750/DEBUG: 答案：膀胱造影
+2026-05-25 20:44:42.518/WARN: 问题内容不能为空
+2026-05-25 20:44:42.518/DEBUG: 文档搜索
+2026-05-25 20:44:42.526/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:44:46.741/WARN: 问题内容不能为空
+2026-05-25 20:44:46.741/DEBUG: 文档搜索
+2026-05-25 20:44:46.797/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:44:50.005/WARN: 问题内容不能为空
+2026-05-25 20:44:50.006/DEBUG: 文档搜索
+2026-05-25 20:44:50.016/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:44:53.168/WARN: 问题内容不能为空
+2026-05-25 20:44:53.170/DEBUG: 文档搜索
+2026-05-25 20:44:53.175/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:44:56.421/WARN: 问题内容不能为空
+2026-05-25 20:44:56.423/DEBUG: 文档搜索
+2026-05-25 20:44:56.435/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:44:59.549/WARN: 问题内容不能为空
+2026-05-25 20:44:59.550/DEBUG: 文档搜索
+2026-05-25 20:44:59.558/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:45:02.605/DEBUG: 题目:阑尾切除手术体位是
+2026-05-25 20:45:02.689/DEBUG: 答案：平卧位
+2026-05-25 20:45:05.749/DEBUG: 题目:阑尾切除手术体位是
+2026-05-25 20:45:05.840/DEBUG: 答案：平卧位
+2026-05-25 20:45:08.898/DEBUG: 题目:下列并发症中属于骨折早期并发症的是
+2026-05-25 20:45:08.988/DEBUG: 答案：骨筋膜室综合征
+2026-05-25 20:45:12.132/DEBUG: 题目:男性43岁因车祸右大腿骨折伴有休克下列护理措施错误的是
+2026-05-25 20:45:12.218/DEBUG: 答案：患肢用热水袋加温
+2026-05-25 20:45:15.232/WARN: 问题内容不能为空
+2026-05-25 20:45:15.233/DEBUG: 文档搜索
+2026-05-25 20:45:15.235/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:45:15.422/DEBUG: 已刷新首页数据
+2026-05-25 20:45:18.249/WARN: 问题内容不能为空
+2026-05-25 20:45:18.250/DEBUG: 文档搜索
+2026-05-25 20:45:18.269/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:45:21.285/WARN: 问题内容不能为空
+2026-05-25 20:45:21.286/DEBUG: 文档搜索
+2026-05-25 20:45:21.298/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:45:23.172/DEBUG: 有一个脚本已运行！
+2026-05-25 20:45:24.406/WARN: 问题内容不能为空
+2026-05-25 20:45:24.407/DEBUG: 文档搜索
+2026-05-25 20:45:24.415/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:45:26.383/DEBUG: 重置完毕!
+2026-05-25 20:45:27.655/DEBUG: 已刷新首页数据
+2026-05-25 20:45:28.403/DEBUG: 已刷新首页数据
+2026-05-25 20:45:34.801/WARN: 问题内容不能为空
+2026-05-25 20:45:34.802/DEBUG: 文档搜索
+2026-05-25 20:45:34.806/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:45:36.462/DEBUG: 重置完毕!
+2026-05-25 20:45:37.183/DEBUG: 已刷新首页数据
+2026-05-25 20:45:43.320/WARN: 问题内容不能为空
+2026-05-25 20:45:43.320/DEBUG: 文档搜索
+2026-05-25 20:45:43.321/DEBUG: 答案:undefined
+2026-05-25 20:45:43.325/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:45:44.110/WARN: 问题内容不能为空
+2026-05-25 20:45:44.111/DEBUG: 文档搜索
+2026-05-25 20:45:44.111/DEBUG: 答案:undefined
+2026-05-25 20:45:44.122/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:45:55.489/DEBUG: 题目:患者男性58岁下肢静脉曲张8年加重1年某日患肢踝部受到碰撞后突然出血不止紧急处理方法是
+2026-05-25 20:45:55.637/DEBUG: 答案:平卧抬高患肢加压包扎
+2026-05-25 20:45:58.627/DEBUG: 题目:患者男性58岁下肢静脉曲张8年加重1年某日患肢踝部受到碰撞后突然出血不止紧急处理方法是
+2026-05-25 20:45:58.755/DEBUG: 答案:平卧抬高患肢加压包扎
+2026-05-25 20:46:07.394/DEBUG: 题目:下列咽鼓管解剖描述错误的是
+2026-05-25 20:46:07.539/DEBUG: 答案:成人咽鼓管接近水平
+2026-05-25 20:46:09.929/DEBUG: 题目:以爪形手为典型表现的骨折并发症为
+2026-05-25 20:46:10.069/DEBUG: 答案:缺血性肌挛缩
+2026-05-25 20:46:12.822/DEBUG: 题目:患者男性3岁感冒流涕3天1天来右耳痛哭闹不止来就诊体温375根据症状应首先想到下列哪种病
+2026-05-25 20:46:12.970/DEBUG: 答案:急性中耳炎
+2026-05-25 20:46:14.165/DEBUG: 题目:患者男性3岁感冒流涕3天1天来右耳痛哭闹不止来就诊体温375根据症状应首先想到下列哪种病
+2026-05-25 20:46:14.286/DEBUG: 答案:急性中耳炎
+2026-05-25 20:46:20.438/WARN: 问题内容不能为空
+2026-05-25 20:46:20.439/DEBUG: 文档搜索
+2026-05-25 20:46:20.440/DEBUG: 答案:undefined
+2026-05-25 20:46:20.452/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:46:21.145/WARN: 问题内容不能为空
+2026-05-25 20:46:21.145/DEBUG: 文档搜索
+2026-05-25 20:46:21.146/DEBUG: 答案:undefined
+2026-05-25 20:46:21.151/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:46:27.908/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:46:27.957/DEBUG: 已有悬浮窗权限
+2026-05-25 20:46:27.985/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-25 20:46:28.072/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:46:28.614/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:46:29.787/TRACE: 无障碍服务已创建(a1c0616)
+2026-05-25 20:46:29.828/TRACE: 无障碍服务已连接(a1c0616): 稳定模式: false
+2026-05-25 20:46:32.946/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:46:32.952/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:46:33.132/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:47:09.927/DEBUG:  开启线程
+2026-05-25 20:47:12.543/WARN: 问题内容不能为空
+2026-05-25 20:47:12.543/DEBUG: 文档搜索
+2026-05-25 20:47:12.544/DEBUG: 答案:undefined
+2026-05-25 20:47:12.548/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:47:17.434/WARN: 问题内容不能为空
+2026-05-25 20:47:17.434/DEBUG: 文档搜索
+2026-05-25 20:47:17.435/DEBUG: 答案:undefined
+2026-05-25 20:47:17.440/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:47:17.649/WARN: 问题内容不能为空
+2026-05-25 20:47:17.650/DEBUG: 文档搜索
+2026-05-25 20:47:17.651/DEBUG: 答案:undefined
+2026-05-25 20:47:17.659/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:47:19.229/WARN: 问题内容不能为空
+2026-05-25 20:47:19.230/DEBUG: 文档搜索
+2026-05-25 20:47:19.231/DEBUG: 答案:undefined
+2026-05-25 20:47:19.245/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:47:37.705/DEBUG: 题目:在急性肺水肿患者镇静治疗时最有效的药物是
+2026-05-25 20:47:37.885/DEBUG: 答案:吗啡
+2026-05-25 20:47:40.249/DEBUG: 题目:癌细胞局限在膀胱黏膜内无乳头亦无浸润称为
+2026-05-25 20:47:40.410/DEBUG: 答案:原位癌
+2026-05-25 20:47:43.150/DEBUG: 题目:小脑幕切迹疝患者瞳孔变化及肢体瘫痪的特点是
+2026-05-25 20:47:43.292/DEBUG: 答案:病变同侧瞳孔变化及对侧肢体瘫痪
+2026-05-25 20:47:44.975/DEBUG: 题目:小脑幕切迹疝患者瞳孔变化及肢体瘫痪的特点是
+2026-05-25 20:47:45.117/DEBUG: 答案:病变同侧瞳孔变化及对侧肢体瘫痪
+2026-05-25 20:47:45.836/DEBUG: 题目:肛门手术体位是
+2026-05-25 20:47:45.981/DEBUG: 答案:截石位
+2026-05-25 20:47:48.042/DEBUG: 题目:下列咽鼓管解剖描述错误的是
+2026-05-25 20:47:48.199/DEBUG: 答案:成人咽鼓管接近水平
+2026-05-25 20:47:48.517/DEBUG: 题目:下列咽鼓管解剖描述错误的是
+2026-05-25 20:47:48.669/DEBUG: 答案:成人咽鼓管接近水平
+2026-05-25 20:47:50.721/DEBUG: 题目:尿道术后预防尿道狭窄最简单有效的方法是
+2026-05-25 20:47:50.877/DEBUG: 答案:定期尿道扩张
+2026-05-25 20:47:51.101/DEBUG: 题目:尿道术后预防尿道狭窄最简单有效的方法是
+2026-05-25 20:47:51.251/DEBUG: 答案:定期尿道扩张
+2026-05-25 20:47:52.506/DEBUG: 题目:患者女性38岁在自取暖房屋中被发现意识不清由家属送来急诊查体神志不清烦躁瞳孔对光反射迟钝3626次分96次分13080查血液浓度为3040此患者为
+2026-05-25 20:47:52.662/DEBUG: 答案:急性一氧化碳中毒
+2026-05-25 20:47:52.875/DEBUG: 题目:患者女性38岁在自取暖房屋中被发现意识不清由家属送来急诊查体神志不清烦躁瞳孔对光反射迟钝3626次分96次分13080查血液浓度为3040此患者为
+2026-05-25 20:47:53.029/DEBUG: 答案:急性一氧化碳中毒
+2026-05-25 20:47:53.234/DEBUG: 题目:患者女性38岁在自取暖房屋中被发现意识不清由家属送来急诊查体神志不清烦躁瞳孔对光反射迟钝3626次分96次分13080查血液浓度为3040此患者为
+2026-05-25 20:47:53.395/DEBUG: 答案:急性一氧化碳中毒
+2026-05-25 20:47:54.078/DEBUG: 题目:患者女性38岁在自取暖房屋中被发现意识不清由家属送来急诊查体神志不清烦躁瞳孔对光反射迟钝3626次分96次分13080查血液浓度为3040此患者为
+2026-05-25 20:47:54.217/DEBUG: 答案:急性一氧化碳中毒
+2026-05-25 20:47:54.265/DEBUG: 题目:患者女性38岁在自取暖房屋中被发现意识不清由家属送来急诊查体神志不清烦躁瞳孔对光反射迟钝3626次分96次分13080查血液浓度为3040此患者为
+2026-05-25 20:47:54.423/DEBUG: 答案:急性一氧化碳中毒
+2026-05-25 20:47:54.515/DEBUG: 题目:患者女性38岁在自取暖房屋中被发现意识不清由家属送来急诊查体神志不清烦躁瞳孔对光反射迟钝3626次分96次分13080查血液浓度为3040此患者为
+2026-05-25 20:47:54.674/DEBUG: 答案:急性一氧化碳中毒
+2026-05-25 20:47:54.927/DEBUG: 题目:患者女性38岁在自取暖房屋中被发现意识不清由家属送来急诊查体神志不清烦躁瞳孔对光反射迟钝3626次分96次分13080查血液浓度为3040此患者为
+2026-05-25 20:47:55.083/DEBUG: 答案:急性一氧化碳中毒
+2026-05-25 20:47:55.308/DEBUG: 题目:患者女性38岁在自取暖房屋中被发现意识不清由家属送来急诊查体神志不清烦躁瞳孔对光反射迟钝3626次分96次分13080查血液浓度为3040此患者为
+2026-05-25 20:47:55.463/DEBUG: 答案:急性一氧化碳中毒
+2026-05-25 20:47:56.249/DEBUG: 题目:运动的根本目的是
+2026-05-25 20:47:56.396/DEBUG: 答案:促进侧支循环建立
+2026-05-25 20:47:58.599/DEBUG: 题目:杜加试验征阳性可见于
+2026-05-25 20:47:58.754/DEBUG: 答案:肩关节脱位
+2026-05-25 20:48:01.029/DEBUG: 题目:某肩关节前脱位患者询问自己受伤的肩部为什么看起来是方形的护士正确的解释是
+2026-05-25 20:48:01.180/DEBUG: 答案:肩关节盂空虚
+2026-05-25 20:48:03.148/DEBUG: 题目:患者男性34岁计算机工程师近期感觉久坐后下肢沉重酸胀容易疲劳护士指导其在工作期间定时站立走动以促进下肢血液循环其原因是利用
+2026-05-25 20:48:03.303/DEBUG: 答案:小腿肌泵收缩功能
+2026-05-25 20:48:03.575/DEBUG: 题目:患者男性34岁计算机工程师近期感觉久坐后下肢沉重酸胀容易疲劳护士指导其在工作期间定时站立走动以促进下肢血液循环其原因是利用
+2026-05-25 20:48:03.727/DEBUG: 答案:小腿肌泵收缩功能
+2026-05-25 20:48:04.489/DEBUG: 题目:患者男性34岁计算机工程师近期感觉久坐后下肢沉重酸胀容易疲劳护士指导其在工作期间定时站立走动以促进下肢血液循环其原因是利用
+2026-05-25 20:48:04.634/DEBUG: 答案:小腿肌泵收缩功能
+2026-05-25 20:48:04.931/DEBUG: 题目:患者男性34岁计算机工程师近期感觉久坐后下肢沉重酸胀容易疲劳护士指导其在工作期间定时站立走动以促进下肢血液循环其原因是利用
+2026-05-25 20:48:05.088/DEBUG: 答案:小腿肌泵收缩功能
+2026-05-25 20:48:05.454/DEBUG: 题目:患者男性34岁计算机工程师近期感觉久坐后下肢沉重酸胀容易疲劳护士指导其在工作期间定时站立走动以促进下肢血液循环其原因是利用
+2026-05-25 20:48:05.625/DEBUG: 答案:小腿肌泵收缩功能
+2026-05-25 20:48:06.498/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:06.650/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:06.667/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:06.889/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:07.050/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:07.077/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:07.273/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:07.440/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:07.459/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:07.617/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:07.775/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:07.794/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:07.819/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:07.976/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:07.995/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:08.102/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:08.267/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:08.287/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:08.411/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:08.574/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:08.589/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:08.887/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:09.044/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:09.064/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:09.165/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:09.332/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:09.356/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:09.525/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:09.683/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:09.703/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:09.778/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:09.939/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:09.958/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:10.164/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:10.318/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:10.335/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:11.046/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:11.215/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:11.231/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:11.687/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:11.852/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:11.871/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:11.987/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:12.143/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:12.164/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:12.188/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:12.349/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:12.366/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:12.403/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:12.560/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:12.577/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:12.587/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:12.675/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:12.686/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:12.704/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:12.860/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:12.870/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:12.878/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:12.967/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:12.978/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:13.027/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:13.185/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:13.202/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:13.211/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:13.299/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:13.311/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:15.078/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:15.246/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:15.266/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:15.645/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:15.811/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:15.831/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:16.293/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:16.459/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:16.473/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:17.794/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:17.954/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:17.973/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:18.865/DEBUG: 题目:患者男性34岁计算机工程师近期感觉久坐后下肢沉重酸胀容易疲劳护士指导其在工作期间定时站立走动以促进下肢血液循环其原因是利用
+2026-05-25 20:48:19.008/DEBUG: 答案:小腿肌泵收缩功能
+2026-05-25 20:48:19.923/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:20.069/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:20.098/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:20.636/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:20.792/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:20.818/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:21.134/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:21.230/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:21.242/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:21.535/DEBUG: 题目:膀胱结石的典型症状是
+2026-05-25 20:48:21.704/DEBUG: 答案:排尿突然中断，并感疼痛
+2026-05-25 20:48:21.723/DEBUG: 未找到相应答案，请手动点击!
+2026-05-25 20:48:24.139/DEBUG: 题目:患者男性3岁感冒流涕3天1天来右耳痛哭闹不止来就诊体温375根据症状应首先想到下列哪种病
+2026-05-25 20:48:24.294/DEBUG: 答案:急性中耳炎
+2026-05-25 20:48:25.854/DEBUG: 题目:患者男性3岁感冒流涕3天1天来右耳痛哭闹不止来就诊体温375根据症状应首先想到下列哪种病
+2026-05-25 20:48:26.005/DEBUG: 答案:急性中耳炎
+2026-05-25 20:48:26.306/DEBUG: 题目:患者男性3岁感冒流涕3天1天来右耳痛哭闹不止来就诊体温375根据症状应首先想到下列哪种病
+2026-05-25 20:48:26.478/DEBUG: 答案:急性中耳炎
+2026-05-25 20:48:27.314/DEBUG: 题目:某患者头部损伤后球结膜下出血鼻孔出血且有脑脊液流出可能为
+2026-05-25 20:48:27.464/DEBUG: 答案:颅前窝骨折
+2026-05-25 20:48:27.801/DEBUG: 题目:某患者头部损伤后球结膜下出血鼻孔出血且有脑脊液流出可能为
+2026-05-25 20:48:27.953/DEBUG: 答案:颅前窝骨折
+2026-05-25 20:48:30.030/DEBUG: 题目:以爪形手为典型表现的骨折并发症为
+2026-05-25 20:48:30.188/DEBUG: 答案:缺血性肌挛缩
+2026-05-25 20:48:35.800/WARN: 问题内容不能为空
+2026-05-25 20:48:35.801/DEBUG: 文档搜索
+2026-05-25 20:48:35.801/DEBUG: 答案:undefined
+2026-05-25 20:48:35.807/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:48:38.740/DEBUG: 题目:霍纳综合征的表现不包括
+2026-05-25 20:48:38.897/DEBUG: 答案:对侧上肢麻
+2026-05-25 20:48:39.133/DEBUG: 题目:霍纳综合征的表现不包括
+2026-05-25 20:48:39.288/DEBUG: 答案:对侧上肢麻
+2026-05-25 20:48:40.894/DEBUG: 题目:某颅脑损伤患者唤之睁眼回答问题错误躲避刺痛其昏迷计分为
+2026-05-25 20:48:41.056/DEBUG: 答案:11分
+2026-05-25 20:48:41.293/DEBUG: 题目:某颅脑损伤患者唤之睁眼回答问题错误躲避刺痛其昏迷计分为
+2026-05-25 20:48:41.442/DEBUG: 答案:11分
+2026-05-25 20:48:42.508/DEBUG: 题目:患者男性25岁外伤后出现肘部关节肿胀可以帮助鉴别肱骨髁上骨折和肘关节后脱位的表现是
+2026-05-25 20:48:42.661/DEBUG: 答案:肘后三点是否失去正常关系
+2026-05-25 20:48:42.891/DEBUG: 题目:患者男性25岁外伤后出现肘部关节肿胀可以帮助鉴别肱骨髁上骨折和肘关节后脱位的表现是
+2026-05-25 20:48:43.042/DEBUG: 答案:肘后三点是否失去正常关系
+2026-05-25 20:48:44.009/DEBUG: 题目:下列描述不属于鼻腔生理功能的是
+2026-05-25 20:48:44.168/DEBUG: 答案:免疫功能
+2026-05-25 20:48:44.389/DEBUG: 题目:下列描述不属于鼻腔生理功能的是
+2026-05-25 20:48:44.539/DEBUG: 答案:免疫功能
+2026-05-25 20:48:45.768/DEBUG: 题目:尿道创伤最易造成的并发症是
+2026-05-25 20:48:45.919/DEBUG: 答案:尿道狭窄
+2026-05-25 20:48:46.114/DEBUG: 题目:尿道创伤最易造成的并发症是
+2026-05-25 20:48:46.208/DEBUG: 答案:尿道狭窄
+2026-05-25 20:48:47.260/DEBUG: 题目:呼吸衰竭时患者可出现发绀一般氧饱和度低于多少时即可观察到发绀
+2026-05-25 20:48:47.411/DEBUG: 答案:85%
+2026-05-25 20:48:47.436/DEBUG: 题目:呼吸衰竭时患者可出现发绀一般氧饱和度低于多少时即可观察到发绀
+2026-05-25 20:48:47.525/DEBUG: 答案:85%
+2026-05-25 20:48:47.546/DEBUG: 题目:呼吸衰竭时患者可出现发绀一般氧饱和度低于多少时即可观察到发绀
+2026-05-25 20:48:47.640/DEBUG: 答案:85%
+2026-05-25 20:48:48.612/DEBUG: 题目:输尿管结石梗阻时会出现
+2026-05-25 20:48:48.771/DEBUG: 答案:肾绞痛
+2026-05-25 20:48:48.795/DEBUG: 题目:输尿管结石梗阻时会出现
+2026-05-25 20:48:48.885/DEBUG: 答案:肾绞痛
+2026-05-25 20:48:48.905/DEBUG: 题目:输尿管结石梗阻时会出现
+2026-05-25 20:48:48.992/DEBUG: 答案:肾绞痛
+2026-05-25 20:48:49.016/DEBUG: 题目:输尿管结石梗阻时会出现
+2026-05-25 20:48:49.103/DEBUG: 答案:肾绞痛
+2026-05-25 20:48:49.540/DEBUG: 题目:输尿管结石梗阻时会出现
+2026-05-25 20:48:49.684/DEBUG: 答案:肾绞痛
+2026-05-25 20:48:49.789/DEBUG: 题目:手术开始前缝合前清点敷料器械及缝针数是
+2026-05-25 20:48:49.933/DEBUG: 答案:两者共同职责
+2026-05-25 20:48:49.955/DEBUG: 题目:手术开始前缝合前清点敷料器械及缝针数是
+2026-05-25 20:48:50.041/DEBUG: 答案:两者共同职责
+2026-05-25 20:48:50.062/DEBUG: 题目:手术开始前缝合前清点敷料器械及缝针数是
+2026-05-25 20:48:50.148/DEBUG: 答案:两者共同职责
+2026-05-25 20:48:50.180/DEBUG: 题目:手术开始前缝合前清点敷料器械及缝针数是
+2026-05-25 20:48:50.268/DEBUG: 答案:两者共同职责
+2026-05-25 20:48:50.540/DEBUG: 题目:手术开始前缝合前清点敷料器械及缝针数是
+2026-05-25 20:48:50.680/DEBUG: 答案:两者共同职责
+2026-05-25 20:48:50.698/DEBUG: 题目:手术开始前缝合前清点敷料器械及缝针数是
+2026-05-25 20:48:50.785/DEBUG: 答案:两者共同职责
+2026-05-25 20:48:50.926/DEBUG: 题目:急性鼻炎早期表现为
+2026-05-25 20:48:51.070/DEBUG: 答案:鼻塞、清涕、发热
+2026-05-25 20:48:51.091/DEBUG: 题目:急性鼻炎早期表现为
+2026-05-25 20:48:51.178/DEBUG: 答案:鼻塞、清涕、发热
+2026-05-25 20:48:51.203/DEBUG: 题目:急性鼻炎早期表现为
+2026-05-25 20:48:51.289/DEBUG: 答案:鼻塞、清涕、发热
+2026-05-25 20:48:51.428/DEBUG: 题目:急性鼻炎早期表现为
+2026-05-25 20:48:51.581/DEBUG: 答案:鼻塞、清涕、发热
+2026-05-25 20:48:52.035/DEBUG: 题目:急性鼻炎早期表现为
+2026-05-25 20:48:52.177/DEBUG: 答案:鼻塞、清涕、发热
+2026-05-25 20:48:52.195/DEBUG: 题目:急性鼻炎早期表现为
+2026-05-25 20:48:52.281/DEBUG: 答案:鼻塞、清涕、发热
+2026-05-25 20:48:52.553/DEBUG: 题目:见于会厌部发生阻塞的是
+2026-05-25 20:48:52.705/DEBUG: 答案:蝉鸣性呼吸
+2026-05-25 20:48:52.730/DEBUG: 题目:见于会厌部发生阻塞的是
+2026-05-25 20:48:52.819/DEBUG: 答案:蝉鸣性呼吸
+2026-05-25 20:48:52.843/DEBUG: 题目:见于会厌部发生阻塞的是
+2026-05-25 20:48:52.927/DEBUG: 答案:蝉鸣性呼吸
+2026-05-25 20:48:53.664/DEBUG: 题目:高血压脑出血最常见的诱因是
+2026-05-25 20:48:53.815/DEBUG: 答案:情绪激动、剧烈活动
+2026-05-25 20:48:53.833/DEBUG: 题目:高血压脑出血最常见的诱因是
+2026-05-25 20:48:53.918/DEBUG: 答案:情绪激动、剧烈活动
+2026-05-25 20:48:53.937/DEBUG: 题目:高血压脑出血最常见的诱因是
+2026-05-25 20:48:54.025/DEBUG: 答案:情绪激动、剧烈活动
+2026-05-25 20:48:54.056/DEBUG: 题目:高血压脑出血最常见的诱因是
+2026-05-25 20:48:54.141/DEBUG: 答案:情绪激动、剧烈活动
+2026-05-25 20:48:54.823/DEBUG: 题目:关于肘关节脱位的叙述正确的是
+2026-05-25 20:48:54.976/DEBUG: 答案:可触到肘后空虚感
+2026-05-25 20:48:54.997/DEBUG: 题目:关于肘关节脱位的叙述正确的是
+2026-05-25 20:48:55.085/DEBUG: 答案:可触到肘后空虚感
+2026-05-25 20:48:55.106/DEBUG: 题目:关于肘关节脱位的叙述正确的是
+2026-05-25 20:48:55.194/DEBUG: 答案:可触到肘后空虚感
+2026-05-25 20:48:55.231/DEBUG: 题目:关于肘关节脱位的叙述正确的是
+2026-05-25 20:48:55.319/DEBUG: 答案:可触到肘后空虚感
+2026-05-25 20:48:55.956/DEBUG: 题目:影响骨折愈合最主要的因素是
+2026-05-25 20:48:56.111/DEBUG: 答案:血液供应不良
+2026-05-25 20:48:56.132/DEBUG: 题目:影响骨折愈合最主要的因素是
+2026-05-25 20:48:56.219/DEBUG: 答案:血液供应不良
+2026-05-25 20:48:56.239/DEBUG: 题目:影响骨折愈合最主要的因素是
+2026-05-25 20:48:56.324/DEBUG: 答案:血液供应不良
+2026-05-25 20:48:56.354/DEBUG: 题目:影响骨折愈合最主要的因素是
+2026-05-25 20:48:56.444/DEBUG: 答案:血液供应不良
+2026-05-25 20:48:57.331/DEBUG: 题目:膀胱癌最常见的症状是
+2026-05-25 20:48:57.482/DEBUG: 答案:无痛性肉眼血尿
+2026-05-25 20:48:57.505/DEBUG: 题目:膀胱癌最常见的症状是
+2026-05-25 20:48:57.591/DEBUG: 答案:无痛性肉眼血尿
+2026-05-25 20:48:57.616/DEBUG: 题目:膀胱癌最常见的症状是
+2026-05-25 20:48:57.703/DEBUG: 答案:无痛性肉眼血尿
+2026-05-25 20:48:58.444/DEBUG: 题目:患者女性47岁身高164体重73久站后左下肢出现酸胀感小腿内侧可见静脉轻微突起诊断为下肢静脉曲张对此患者日常保健要求中不正确的是
+2026-05-25 20:48:58.600/DEBUG: 答案:休息时患肢下垂
+2026-05-25 20:48:58.621/DEBUG: 题目:患者女性47岁身高164体重73久站后左下肢出现酸胀感小腿内侧可见静脉轻微突起诊断为下肢静脉曲张对此患者日常保健要求中不正确的是
+2026-05-25 20:48:58.708/DEBUG: 答案:休息时患肢下垂
+2026-05-25 20:48:58.737/DEBUG: 题目:患者女性47岁身高164体重73久站后左下肢出现酸胀感小腿内侧可见静脉轻微突起诊断为下肢静脉曲张对此患者日常保健要求中不正确的是
+2026-05-25 20:48:58.824/DEBUG: 答案:休息时患肢下垂
+2026-05-25 20:48:58.846/DEBUG: 题目:患者女性47岁身高164体重73久站后左下肢出现酸胀感小腿内侧可见静脉轻微突起诊断为下肢静脉曲张对此患者日常保健要求中不正确的是
+2026-05-25 20:48:58.933/DEBUG: 答案:休息时患肢下垂
+2026-05-25 20:48:59.472/DEBUG: 题目:患者女性47岁身高164体重73久站后左下肢出现酸胀感小腿内侧可见静脉轻微突起诊断为下肢静脉曲张对此患者日常保健要求中不正确的是
+2026-05-25 20:48:59.618/DEBUG: 答案:休息时患肢下垂
+2026-05-25 20:48:59.944/WARN: 问题内容不能为空
+2026-05-25 20:48:59.945/DEBUG: 文档搜索
+2026-05-25 20:48:59.946/DEBUG: 答案:undefined
+2026-05-25 20:48:59.950/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:49:00.061/WARN: 问题内容不能为空
+2026-05-25 20:49:00.061/DEBUG: 文档搜索
+2026-05-25 20:49:00.062/DEBUG: 答案:undefined
+2026-05-25 20:49:00.065/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:49:03.324/WARN: 问题内容不能为空
+2026-05-25 20:49:03.324/DEBUG: 文档搜索
+2026-05-25 20:49:03.325/DEBUG: 答案:undefined
+2026-05-25 20:49:03.329/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-25 20:49:09.805/DEBUG: 请先输入 问题 答案
+2026-05-25 20:49:13.172/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时165.263000秒
+2026-05-25 20:49:13.173/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:49:13.173/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:49:13.186/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时165.277000秒
+2026-05-25 20:49:13.186/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:49:13.187/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:49:16.318/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:49:16.362/DEBUG: 已有悬浮窗权限
+2026-05-25 20:49:16.416/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:49:16.672/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:50:40.054/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:50:40.061/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:50:40.239/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:50:42.807/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时86.488000秒
+2026-05-25 20:50:42.807/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:50:42.807/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:50:42.818/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时86.500000秒
+2026-05-25 20:50:42.819/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:50:42.819/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:51:03.149/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:51:03.186/DEBUG: 已有悬浮窗权限
+2026-05-25 20:51:03.234/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:51:03.578/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:51:09.491/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:51:09.497/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:51:09.714/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:51:11.663/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时8.512000秒
+2026-05-25 20:51:11.663/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:51:11.663/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:51:11.678/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时8.528000秒
+2026-05-25 20:51:11.679/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:51:11.679/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:51:17.614/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:51:17.654/DEBUG: 已有悬浮窗权限
+2026-05-25 20:51:17.699/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:51:17.967/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:51:22.841/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:51:22.846/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:51:23.033/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:51:24.540/DEBUG:  开启线程
+2026-05-25 20:51:27.720/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时10.106000秒
+2026-05-25 20:51:30.182/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:51:30.231/DEBUG: 已有悬浮窗权限
+2026-05-25 20:51:30.258/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-25 20:51:30.350/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:51:30.906/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:51:32.771/TRACE: 无障碍服务已创建(2cd7b97)
+2026-05-25 20:51:32.798/TRACE: 无障碍服务已连接(2cd7b97): 稳定模式: false
+2026-05-25 20:51:35.427/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:51:35.436/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:51:35.628/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:51:36.693/DEBUG:  开启线程
+2026-05-25 20:51:37.654/WARN: 问题内容不能为空
+2026-05-25 20:51:37.654/DEBUG: 文档搜索
+2026-05-25 20:51:37.683/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:51:39.506/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时9.322000秒
+2026-05-25 20:51:39.507/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:51:39.508/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:51:39.517/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时9.333000秒
+2026-05-25 20:51:39.517/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:51:39.518/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:51:59.699/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:51:59.754/DEBUG: 已有悬浮窗权限
+2026-05-25 20:51:59.808/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-25 20:51:59.929/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:52:00.575/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:52:06.095/TRACE: 无障碍服务已创建(7076cbd)
+2026-05-25 20:52:06.126/TRACE: 无障碍服务已连接(7076cbd): 稳定模式: false
+2026-05-25 20:52:08.759/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:52:08.765/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:52:08.946/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:52:17.926/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时18.225000秒
+2026-05-25 20:52:17.926/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:52:17.927/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:52:17.939/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时18.238000秒
+2026-05-25 20:52:17.939/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:52:17.939/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:52:22.865/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 20:52:22.911/DEBUG: 已有悬浮窗权限
+2026-05-25 20:52:22.967/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 20:52:23.224/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 20:52:25.894/DEBUG: 瑞科消息  心跳开始
+2026-05-25 20:52:25.901/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 20:52:26.089/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 20:52:27.380/DEBUG:  开启线程
+2026-05-25 20:52:28.653/WARN: 问题内容不能为空
+2026-05-25 20:52:28.653/DEBUG: 文档搜索
+2026-05-25 20:52:28.681/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 20:52:30.413/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时7.547000秒
+2026-05-25 20:52:30.414/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:52:30.414/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:52:30.430/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时7.564000秒
+2026-05-25 20:52:30.430/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 20:52:30.430/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 21:02:32.686/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 21:02:32.788/DEBUG: 已有悬浮窗权限
+2026-05-25 21:02:32.854/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 21:02:33.158/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 21:02:35.582/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时2.896000秒
+2026-05-25 21:02:40.095/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 21:02:40.137/DEBUG: 已有悬浮窗权限
+2026-05-25 21:02:40.188/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 21:02:40.531/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 21:02:48.404/DEBUG: 瑞科消息  心跳开始
+2026-05-25 21:02:48.410/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 21:02:48.589/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 21:03:04.025/ERROR: Thread[main,5]: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:439:0
+ 
+2026-05-25 21:03:06.713/DEBUG:  开启线程
+2026-05-25 21:03:06.786/ERROR: Thread[main,5]: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main3 (main.js:1322:0)
+    at main.js:473:0
+ 
+2026-05-25 21:03:11.428/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时31.333000秒
+2026-05-25 21:03:11.429/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 21:03:11.429/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 21:03:11.442/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时31.346000秒
+2026-05-25 21:03:11.442/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 21:03:11.442/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-25 21:03:14.699/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-25 21:03:14.741/DEBUG: 已有悬浮窗权限
+2026-05-25 21:03:14.782/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-25 21:03:15.022/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-25 21:03:16.681/DEBUG: 瑞科消息  心跳开始
+2026-05-25 21:03:16.687/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-25 21:03:16.896/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-25 21:03:20.540/DEBUG:  开启线程
+2026-05-25 21:03:23.955/WARN: 问题内容不能为空
+2026-05-25 21:03:23.956/DEBUG: 文档搜索
+2026-05-25 21:03:23.968/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:03:26.980/WARN: 问题内容不能为空
+2026-05-25 21:03:26.980/DEBUG: 文档搜索
+2026-05-25 21:03:26.983/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:03:30.691/WARN: 问题内容不能为空
+2026-05-25 21:03:30.692/DEBUG: 文档搜索
+2026-05-25 21:03:30.723/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:03:33.850/WARN: 问题内容不能为空
+2026-05-25 21:03:33.850/DEBUG: 文档搜索
+2026-05-25 21:03:34.039/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:03:37.164/DEBUG: 题目:
+2026-05-25 21:03:37.188/DEBUG: 题目:
+2026-05-25 21:03:37.216/DEBUG: 题目:
+2026-05-25 21:03:37.238/DEBUG: 题目:
+2026-05-25 21:03:37.250/DEBUG: 题目:
+2026-05-25 21:03:37.262/DEBUG: 题目:
+2026-05-25 21:03:37.276/DEBUG: 题目:
+2026-05-25 21:03:37.288/DEBUG: 题目:
+2026-05-25 21:03:37.299/DEBUG: 题目:
+2026-05-25 21:03:37.314/DEBUG: 题目:
+2026-05-25 21:03:37.323/DEBUG: 题目:
+2026-05-25 21:03:37.333/DEBUG: 题目:
+2026-05-25 21:03:37.344/DEBUG: 题目:
+2026-05-25 21:03:37.357/DEBUG: 题目:
+2026-05-25 21:03:37.367/DEBUG: 题目:
+2026-05-25 21:03:37.377/DEBUG: 题目:
+2026-05-25 21:03:37.386/DEBUG: 题目:
+2026-05-25 21:03:37.394/DEBUG: 题目:
+2026-05-25 21:03:37.403/DEBUG: 题目:
+2026-05-25 21:03:37.411/DEBUG: 题目:
+2026-05-25 21:03:37.424/DEBUG: 题目:
+2026-05-25 21:03:37.432/DEBUG: 题目:
+2026-05-25 21:03:37.438/DEBUG: 题目:
+2026-05-25 21:03:37.444/DEBUG: 题目:
+2026-05-25 21:03:37.453/DEBUG: 题目:
+2026-05-25 21:03:37.461/DEBUG: 题目:
+2026-05-25 21:03:37.471/DEBUG: 题目:
+2026-05-25 21:03:37.477/DEBUG: 题目:
+2026-05-25 21:03:37.484/DEBUG: 题目:
+2026-05-25 21:03:37.490/DEBUG: 题目:
+2026-05-25 21:03:37.501/DEBUG: 题目:
+2026-05-25 21:03:37.506/DEBUG: 题目:
+2026-05-25 21:03:37.512/DEBUG: 题目:
+2026-05-25 21:03:37.543/DEBUG: 题目:
+2026-05-25 21:03:37.552/DEBUG: 题目:
+2026-05-25 21:03:37.559/DEBUG: 题目:
+2026-05-25 21:03:37.564/DEBUG: 题目:
+2026-05-25 21:03:37.569/DEBUG: 题目:
+2026-05-25 21:03:37.574/DEBUG: 题目:
+2026-05-25 21:03:37.582/DEBUG: 题目:
+2026-05-25 21:03:37.590/DEBUG: 题目:
+2026-05-25 21:03:37.601/DEBUG: 题目:
+2026-05-25 21:03:37.609/DEBUG: 题目:
+2026-05-25 21:03:37.646/DEBUG: 题目:
+2026-05-25 21:03:37.652/DEBUG: 题目:
+2026-05-25 21:03:37.657/DEBUG: 题目:
+2026-05-25 21:03:37.664/DEBUG: 题目:
+2026-05-25 21:03:37.670/DEBUG: 题目:
+2026-05-25 21:03:37.680/DEBUG: 题目:
+2026-05-25 21:03:37.687/DEBUG: 题目:
+2026-05-25 21:03:37.697/DEBUG: 题目:
+2026-05-25 21:03:37.706/DEBUG: 题目:
+2026-05-25 21:03:37.902/DEBUG: 题目:
+2026-05-25 21:03:37.967/WARN: 问题内容不能为空
+2026-05-25 21:03:37.968/DEBUG: 文档搜索
+2026-05-25 21:03:37.971/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:03:41.268/WARN: 问题内容不能为空
+2026-05-25 21:03:41.269/DEBUG: 文档搜索
+2026-05-25 21:03:41.282/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:03:44.398/DEBUG: 题目:搬动留置胸腔闭式引流患者时应
+2026-05-25 21:03:44.507/DEBUG: 答案：用两把止血钳夹闭引流管
+2026-05-25 21:03:47.597/DEBUG: 题目:给予多根多处肋骨骨折患者胸壁包扎固定的最主要的目的是
+2026-05-25 21:03:47.695/DEBUG: 答案：消除反常呼吸
+2026-05-25 21:03:50.802/DEBUG: 题目:损伤性血胸患者胸腔内积血不凝固的原因是
+2026-05-25 21:03:50.907/DEBUG: 答案：肺及膈肌的去纤维化作用
+2026-05-25 21:03:54.036/DEBUG: 题目:损伤性血胸患者胸腔内积血不凝固的原因是
+2026-05-25 21:03:54.123/DEBUG: 答案：肺及膈肌的去纤维化作用
+2026-05-25 21:03:57.183/DEBUG: 题目:张力性气胸的最主要病理生理变化
+2026-05-25 21:03:57.276/DEBUG: 答案：进行性伤侧肺压缩
+2026-05-25 21:04:00.404/DEBUG: 题目:张力性气胸的最主要病理生理变化
+2026-05-25 21:04:00.505/DEBUG: 答案：进行性伤侧肺压缩
+2026-05-25 21:04:03.600/DEBUG: 题目:手术结束整理并清洗手术器械是
+2026-05-25 21:04:03.701/DEBUG: 答案：刷手护士职责
+2026-05-25 21:04:06.760/DEBUG: 题目:手术结束整理并清洗手术器械是
+2026-05-25 21:04:06.853/DEBUG: 答案：刷手护士职责
+2026-05-25 21:04:09.887/DEBUG: 题目:手术结束整理并清洗手术器械是
+2026-05-25 21:04:09.970/DEBUG: 答案：刷手护士职责
+2026-05-25 21:04:13.049/DEBUG: 题目:开放性气胸患者伤口局部敷料包扎的最主要的目的是
+2026-05-25 21:04:13.148/DEBUG: 答案：纠正纵隔扑动
+2026-05-25 21:04:16.174/DEBUG: 题目:开放性气胸患者伤口局部敷料包扎的最主要的目的是
+2026-05-25 21:04:16.264/DEBUG: 答案：纠正纵隔扑动
+2026-05-25 21:04:19.365/DEBUG: 题目:开放性气胸的紧急处理首先要
+2026-05-25 21:04:19.472/DEBUG: 答案：用厚敷料封闭伤口
+2026-05-25 21:04:22.532/DEBUG: 题目:拔除胸膜腔闭式引流管时应嘱患者
+2026-05-25 21:04:22.621/DEBUG: 答案：深吸气后屏气
+2026-05-25 21:04:25.644/DEBUG: 题目:拔除胸膜腔闭式引流管时应嘱患者
+2026-05-25 21:04:25.732/DEBUG: 答案：深吸气后屏气
+2026-05-25 21:04:29.102/WARN: 问题内容不能为空
+2026-05-25 21:04:29.103/DEBUG: 文档搜索
+2026-05-25 21:04:29.257/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:04:32.564/WARN: 问题内容不能为空
+2026-05-25 21:04:32.565/DEBUG: 文档搜索
+2026-05-25 21:04:32.572/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:04:35.598/DEBUG: 题目:拔除胸膜腔闭式引流管时应嘱患者
+2026-05-25 21:04:35.688/DEBUG: 答案：深吸气后屏气
+2026-05-25 21:04:38.788/DEBUG: 题目:体外循环术后患者应维持尿量在
+2026-05-25 21:04:38.894/DEBUG: 答案：1ml/(kg·h)
+2026-05-25 21:04:42.023/DEBUG: 题目:体外循环术后患者应维持尿量在
+2026-05-25 21:04:42.121/DEBUG: 答案：1ml/(kg·h)
+2026-05-25 21:04:45.232/DEBUG: 题目:张力性气胸患者的紧急处理方法是
+2026-05-25 21:04:45.330/DEBUG: 答案：胸腔穿刺排气减压
+2026-05-25 21:04:48.443/DEBUG: 题目:张力性气胸患者的紧急处理方法是
+2026-05-25 21:04:48.546/DEBUG: 答案：胸腔穿刺排气减压
+2026-05-25 21:04:51.651/DEBUG: 题目:开放性气胸产生纵隔扑动的主要原因是
+2026-05-25 21:04:51.752/DEBUG: 答案：呼吸时两侧胸膜腔内的压力改变
+2026-05-25 21:04:54.871/DEBUG: 题目:留置胸膜腔闭式引流管的患者出现引流管脱出首先要
+2026-05-25 21:04:54.981/DEBUG: 答案：用无菌敷料封闭伤口
+2026-05-25 21:04:58.035/DEBUG: 题目:留置胸膜腔闭式引流管的患者出现引流管脱出首先要
+2026-05-25 21:04:58.125/DEBUG: 答案：用无菌敷料封闭伤口
+2026-05-25 21:05:01.217/DEBUG: 题目:注意手术进展及时调整灯光供应术中所需物品是
+2026-05-25 21:05:01.324/DEBUG: 答案：巡回护士职责
+2026-05-25 21:05:04.425/DEBUG: 题目:胸部损伤后提示患者存在活动性出血的征象不包括
+2026-05-25 21:05:04.530/DEBUG: 答案：输液后血压回升,不再下降
+2026-05-25 21:05:07.580/DEBUG: 题目:某患者因外伤造成左侧胸部47肋骨多处骨折呼吸时患处可能出现
+2026-05-25 21:05:07.672/DEBUG: 答案：吸气时内陷呼气时外凸
+2026-05-25 21:05:10.750/WARN: 问题内容不能为空
+2026-05-25 21:05:10.750/DEBUG: 文档搜索
+2026-05-25 21:05:10.757/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:05:19.527/WARN: 问题内容不能为空
+2026-05-25 21:05:19.542/DEBUG: 文档搜索
+2026-05-25 21:05:20.635/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:05:24.226/WARN: 问题内容不能为空
+2026-05-25 21:05:24.226/DEBUG: 文档搜索
+2026-05-25 21:05:24.241/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:05:28.080/WARN: 问题内容不能为空
+2026-05-25 21:05:28.082/DEBUG: 文档搜索
+2026-05-25 21:05:28.672/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:05:32.149/WARN: 问题内容不能为空
+2026-05-25 21:05:32.149/DEBUG: 文档搜索
+2026-05-25 21:05:32.156/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:05:35.172/WARN: 问题内容不能为空
+2026-05-25 21:05:35.172/DEBUG: 文档搜索
+2026-05-25 21:05:35.174/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-25 21:05:38.182/WARN: 问题内容不能为空
+2026-05-25 21:05:38.183/DEBUG: 文档搜索
+2026-05-25 21:05:38.187/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:52:36.728/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-26 00:52:36.782/DEBUG: 已有悬浮窗权限
+2026-05-26 00:52:36.816/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-26 00:52:36.913/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-26 00:52:37.899/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-26 00:52:38.708/TRACE: 无障碍服务已创建(5813f4a)
+2026-05-26 00:52:38.787/TRACE: 无障碍服务已连接(5813f4a): 稳定模式: false
+2026-05-26 00:52:44.975/DEBUG: 瑞科消息  心跳开始
+2026-05-26 00:52:44.981/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-26 00:52:45.157/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-26 00:52:49.075/DEBUG:  开启线程
+2026-05-26 00:52:52.116/DEBUG: 有一个脚本已运行！
+2026-05-26 00:52:54.470/DEBUG: 已刷新首页数据
+2026-05-26 00:52:57.087/DEBUG: 有一个脚本已运行！
+2026-05-26 00:52:59.001/DEBUG: 有一个脚本已运行！
+2026-05-26 00:53:00.855/DEBUG: 重置完毕!
+2026-05-26 00:53:02.014/DEBUG: 重置完毕!
+2026-05-26 00:53:02.778/DEBUG: 重置完毕!
+2026-05-26 00:53:08.255/WARN: 问题内容不能为空
+2026-05-26 00:53:08.256/DEBUG: 文档搜索
+2026-05-26 00:53:08.299/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:11.417/WARN: 问题内容不能为空
+2026-05-26 00:53:11.419/DEBUG: 文档搜索
+2026-05-26 00:53:11.429/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:14.604/WARN: 问题内容不能为空
+2026-05-26 00:53:14.604/DEBUG: 文档搜索
+2026-05-26 00:53:14.609/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:17.679/WARN: 问题内容不能为空
+2026-05-26 00:53:17.679/DEBUG: 文档搜索
+2026-05-26 00:53:17.683/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:21.219/WARN: 问题内容不能为空
+2026-05-26 00:53:21.220/DEBUG: 文档搜索
+2026-05-26 00:53:21.224/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:24.739/WARN: 问题内容不能为空
+2026-05-26 00:53:24.741/DEBUG: 文档搜索
+2026-05-26 00:53:25.420/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:29.624/WARN: 问题内容不能为空
+2026-05-26 00:53:29.625/DEBUG: 文档搜索
+2026-05-26 00:53:29.639/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:33.388/WARN: 问题内容不能为空
+2026-05-26 00:53:33.388/DEBUG: 文档搜索
+2026-05-26 00:53:33.397/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:36.849/WARN: 问题内容不能为空
+2026-05-26 00:53:36.850/DEBUG: 文档搜索
+2026-05-26 00:53:36.868/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:40.561/WARN: 问题内容不能为空
+2026-05-26 00:53:40.562/DEBUG: 文档搜索
+2026-05-26 00:53:40.573/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:43.984/WARN: 问题内容不能为空
+2026-05-26 00:53:43.985/DEBUG: 文档搜索
+2026-05-26 00:53:43.999/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:48.652/WARN: 问题内容不能为空
+2026-05-26 00:53:48.655/DEBUG: 文档搜索
+2026-05-26 00:53:48.662/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:52.374/WARN: 问题内容不能为空
+2026-05-26 00:53:52.375/DEBUG: 文档搜索
+2026-05-26 00:53:52.382/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:55.706/WARN: 问题内容不能为空
+2026-05-26 00:53:55.707/DEBUG: 文档搜索
+2026-05-26 00:53:55.719/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:53:59.103/WARN: 问题内容不能为空
+2026-05-26 00:53:59.104/DEBUG: 文档搜索
+2026-05-26 00:53:59.113/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:03.659/WARN: 问题内容不能为空
+2026-05-26 00:54:03.660/DEBUG: 文档搜索
+2026-05-26 00:54:03.671/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:07.051/WARN: 问题内容不能为空
+2026-05-26 00:54:07.051/DEBUG: 文档搜索
+2026-05-26 00:54:07.064/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:10.152/WARN: 问题内容不能为空
+2026-05-26 00:54:10.152/DEBUG: 文档搜索
+2026-05-26 00:54:10.157/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:13.599/WARN: 问题内容不能为空
+2026-05-26 00:54:13.600/DEBUG: 文档搜索
+2026-05-26 00:54:13.620/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:17.207/WARN: 问题内容不能为空
+2026-05-26 00:54:17.208/DEBUG: 文档搜索
+2026-05-26 00:54:17.215/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:20.545/WARN: 问题内容不能为空
+2026-05-26 00:54:20.547/DEBUG: 文档搜索
+2026-05-26 00:54:20.567/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:23.786/WARN: 问题内容不能为空
+2026-05-26 00:54:23.787/DEBUG: 文档搜索
+2026-05-26 00:54:23.800/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:27.250/WARN: 问题内容不能为空
+2026-05-26 00:54:27.251/DEBUG: 文档搜索
+2026-05-26 00:54:27.272/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:30.444/WARN: 问题内容不能为空
+2026-05-26 00:54:30.444/DEBUG: 文档搜索
+2026-05-26 00:54:30.452/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:34.606/WARN: 问题内容不能为空
+2026-05-26 00:54:34.607/DEBUG: 文档搜索
+2026-05-26 00:54:34.636/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:38.097/WARN: 问题内容不能为空
+2026-05-26 00:54:38.099/DEBUG: 文档搜索
+2026-05-26 00:54:38.119/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:41.431/WARN: 问题内容不能为空
+2026-05-26 00:54:41.432/DEBUG: 文档搜索
+2026-05-26 00:54:41.449/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:45.716/WARN: 问题内容不能为空
+2026-05-26 00:54:45.717/DEBUG: 文档搜索
+2026-05-26 00:54:45.734/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:49.499/WARN: 问题内容不能为空
+2026-05-26 00:54:49.500/DEBUG: 文档搜索
+2026-05-26 00:54:49.511/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:52.795/WARN: 问题内容不能为空
+2026-05-26 00:54:52.796/DEBUG: 文档搜索
+2026-05-26 00:54:52.801/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:56.532/WARN: 问题内容不能为空
+2026-05-26 00:54:56.533/DEBUG: 文档搜索
+2026-05-26 00:54:56.545/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:54:59.931/WARN: 问题内容不能为空
+2026-05-26 00:54:59.932/DEBUG: 文档搜索
+2026-05-26 00:55:00.300/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:03.708/WARN: 问题内容不能为空
+2026-05-26 00:55:03.709/DEBUG: 文档搜索
+2026-05-26 00:55:03.723/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:07.035/WARN: 问题内容不能为空
+2026-05-26 00:55:07.036/DEBUG: 文档搜索
+2026-05-26 00:55:07.048/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:10.617/WARN: 问题内容不能为空
+2026-05-26 00:55:10.618/DEBUG: 文档搜索
+2026-05-26 00:55:10.628/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:13.832/WARN: 问题内容不能为空
+2026-05-26 00:55:13.832/DEBUG: 文档搜索
+2026-05-26 00:55:13.839/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:17.521/WARN: 问题内容不能为空
+2026-05-26 00:55:17.521/DEBUG: 文档搜索
+2026-05-26 00:55:17.533/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:21.691/WARN: 问题内容不能为空
+2026-05-26 00:55:21.692/DEBUG: 文档搜索
+2026-05-26 00:55:21.707/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:25.668/WARN: 问题内容不能为空
+2026-05-26 00:55:25.669/DEBUG: 文档搜索
+2026-05-26 00:55:25.693/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:29.908/WARN: 问题内容不能为空
+2026-05-26 00:55:29.909/DEBUG: 文档搜索
+2026-05-26 00:55:29.925/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:33.413/WARN: 问题内容不能为空
+2026-05-26 00:55:33.414/DEBUG: 文档搜索
+2026-05-26 00:55:33.428/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:37.012/WARN: 问题内容不能为空
+2026-05-26 00:55:37.012/DEBUG: 文档搜索
+2026-05-26 00:55:37.025/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:40.798/WARN: 问题内容不能为空
+2026-05-26 00:55:40.799/DEBUG: 文档搜索
+2026-05-26 00:55:40.824/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:44.276/WARN: 问题内容不能为空
+2026-05-26 00:55:44.277/DEBUG: 文档搜索
+2026-05-26 00:55:44.290/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:47.916/WARN: 问题内容不能为空
+2026-05-26 00:55:47.917/DEBUG: 文档搜索
+2026-05-26 00:55:47.923/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:51.840/WARN: 问题内容不能为空
+2026-05-26 00:55:51.841/DEBUG: 文档搜索
+2026-05-26 00:55:51.853/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:56.031/WARN: 问题内容不能为空
+2026-05-26 00:55:56.033/DEBUG: 文档搜索
+2026-05-26 00:55:56.063/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:55:59.841/WARN: 问题内容不能为空
+2026-05-26 00:55:59.842/DEBUG: 文档搜索
+2026-05-26 00:55:59.853/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:03.873/WARN: 问题内容不能为空
+2026-05-26 00:56:03.874/DEBUG: 文档搜索
+2026-05-26 00:56:03.884/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:07.442/WARN: 问题内容不能为空
+2026-05-26 00:56:07.443/DEBUG: 文档搜索
+2026-05-26 00:56:07.456/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:10.485/WARN: 问题内容不能为空
+2026-05-26 00:56:10.486/DEBUG: 文档搜索
+2026-05-26 00:56:10.500/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:13.525/WARN: 问题内容不能为空
+2026-05-26 00:56:13.526/DEBUG: 文档搜索
+2026-05-26 00:56:13.539/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:16.562/WARN: 问题内容不能为空
+2026-05-26 00:56:16.563/DEBUG: 文档搜索
+2026-05-26 00:56:16.576/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:19.603/WARN: 问题内容不能为空
+2026-05-26 00:56:19.604/DEBUG: 文档搜索
+2026-05-26 00:56:19.618/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:22.646/WARN: 问题内容不能为空
+2026-05-26 00:56:22.647/DEBUG: 文档搜索
+2026-05-26 00:56:22.661/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:25.683/WARN: 问题内容不能为空
+2026-05-26 00:56:25.684/DEBUG: 文档搜索
+2026-05-26 00:56:25.697/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:29.122/WARN: 问题内容不能为空
+2026-05-26 00:56:29.123/DEBUG: 文档搜索
+2026-05-26 00:56:29.128/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:32.399/WARN: 问题内容不能为空
+2026-05-26 00:56:32.400/DEBUG: 文档搜索
+2026-05-26 00:56:32.414/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:35.819/WARN: 问题内容不能为空
+2026-05-26 00:56:35.819/DEBUG: 文档搜索
+2026-05-26 00:56:35.825/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:39.041/WARN: 问题内容不能为空
+2026-05-26 00:56:39.042/DEBUG: 文档搜索
+2026-05-26 00:56:39.053/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:42.217/WARN: 问题内容不能为空
+2026-05-26 00:56:42.218/WARN: 问题内容不能为空
+2026-05-26 00:56:42.218/DEBUG: 文档搜索
+2026-05-26 00:56:42.219/DEBUG: 文档搜索
+2026-05-26 00:56:42.219/DEBUG: 答案:undefined
+2026-05-26 00:56:42.223/DEBUG: 请按小助手更新题库按钮，更新题库！
+2026-05-26 00:56:42.230/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:45.389/WARN: 问题内容不能为空
+2026-05-26 00:56:45.390/DEBUG: 文档搜索
+2026-05-26 00:56:45.397/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:48.451/DEBUG: 题目:
+2026-05-26 00:56:48.480/DEBUG: 题目:
+2026-05-26 00:56:48.517/DEBUG: 题目:
+2026-05-26 00:56:48.560/DEBUG: 题目:
+2026-05-26 00:56:48.881/DEBUG: 错误信息: Cannot call method "child" of null
+2026-05-26 00:56:48.882/WARN: 问题内容不能为空
+2026-05-26 00:56:48.882/DEBUG: 文档搜索
+2026-05-26 00:56:48.889/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:51.922/WARN: 问题内容不能为空
+2026-05-26 00:56:51.923/DEBUG: 文档搜索
+2026-05-26 00:56:51.932/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:56:55.044/DEBUG: 题目:鼻窦炎表现为
+2026-05-26 00:56:55.295/DEBUG: 答案：鼻塞、脓涕、头痛
+2026-05-26 00:56:58.323/DEBUG: 题目:鼻窦炎表现为
+2026-05-26 00:56:58.413/DEBUG: 答案：鼻塞、脓涕、头痛
+2026-05-26 00:57:01.521/DEBUG: 题目:何种毒物中毒时可有大蒜气味
+2026-05-26 00:57:01.630/DEBUG: 答案：有机磷杀虫药中毒
+2026-05-26 00:57:04.715/DEBUG: 题目:下列关节中稳定性最好最不易脱位的是
+2026-05-26 00:57:04.817/DEBUG: 答案：髋关节
+2026-05-26 00:57:07.913/DEBUG: 题目:肺癌患者常见的早期表现是
+2026-05-26 00:57:08.015/DEBUG: 答案：咳嗽
+2026-05-26 00:57:11.121/DEBUG: 题目:下列描述不属于鼻窦功能的是
+2026-05-26 00:57:11.223/DEBUG: 答案：屏气功能
+2026-05-26 00:57:14.686/WARN: 问题内容不能为空
+2026-05-26 00:57:14.686/DEBUG: 文档搜索
+2026-05-26 00:57:14.734/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:57:18.030/WARN: 问题内容不能为空
+2026-05-26 00:57:18.031/DEBUG: 文档搜索
+2026-05-26 00:57:18.080/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:57:21.423/WARN: 问题内容不能为空
+2026-05-26 00:57:21.424/DEBUG: 文档搜索
+2026-05-26 00:57:21.514/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:57:24.668/DEBUG: 题目:下列描述不属于鼻窦功能的是
+2026-05-26 00:57:24.776/DEBUG: 答案：屏气功能
+2026-05-26 00:57:27.886/DEBUG: 题目:见于胸膜炎胸腔肿瘤的是
+2026-05-26 00:57:27.986/DEBUG: 答案：紧促式呼吸
+2026-05-26 00:57:30.995/DEBUG: 题目:见于胸膜炎胸腔肿瘤的是
+2026-05-26 00:57:31.082/DEBUG: 答案：紧促式呼吸
+2026-05-26 00:57:34.280/WARN: 问题内容不能为空
+2026-05-26 00:57:34.281/DEBUG: 文档搜索
+2026-05-26 00:57:34.287/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:57:37.311/WARN: 问题内容不能为空
+2026-05-26 00:57:37.312/DEBUG: 文档搜索
+2026-05-26 00:57:37.320/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:57:40.372/DEBUG: 题目:见于胸膜炎胸腔肿瘤的是
+2026-05-26 00:57:40.457/DEBUG: 答案：紧促式呼吸
+2026-05-26 00:57:43.569/DEBUG: 题目:患者男性35岁长期吸烟近1年来右下肢反复发作游走性浅静脉炎并有间歇性跛行皮肤温度降低色泽较苍白足背动脉搏动正常胫后动脉搏动减弱最可能的原因是
+2026-05-26 00:57:43.663/DEBUG: 答案：血栓闭塞性脉管炎
+2026-05-26 00:57:45.947/DEBUG: 题目:患者男性35岁长期吸烟近1年来右下肢反复发作游走性浅静脉炎并有间歇性跛行皮肤温度降低色泽较苍白足背动脉搏动正常胫后动脉搏动减弱最可能的原因是
+2026-05-26 00:57:46.102/DEBUG: 答案:血栓闭塞性脉管炎
+2026-05-26 00:57:46.691/DEBUG: 题目:患者男性35岁长期吸烟近1年来右下肢反复发作游走性浅静脉炎并有间歇性跛行皮肤温度降低色泽较苍白足背动脉搏动正常胫后动脉搏动减弱最可能的原因是
+2026-05-26 00:57:46.786/DEBUG: 答案：血栓闭塞性脉管炎
+2026-05-26 00:57:47.099/DEBUG: 题目:患者男性35岁长期吸烟近1年来右下肢反复发作游走性浅静脉炎并有间歇性跛行皮肤温度降低色泽较苍白足背动脉搏动正常胫后动脉搏动减弱最可能的原因是
+2026-05-26 00:57:47.273/DEBUG: 答案:血栓闭塞性脉管炎
+2026-05-26 00:57:48.267/DEBUG: 题目:患者男性35岁长期吸烟近1年来右下肢反复发作游走性浅静脉炎并有间歇性跛行皮肤温度降低色泽较苍白足背动脉搏动正常胫后动脉搏动减弱最可能的原因是
+2026-05-26 00:57:48.413/DEBUG: 答案:血栓闭塞性脉管炎
+2026-05-26 00:57:48.788/DEBUG: 题目:患者男性35岁长期吸烟近1年来右下肢反复发作游走性浅静脉炎并有间歇性跛行皮肤温度降低色泽较苍白足背动脉搏动正常胫后动脉搏动减弱最可能的原因是
+2026-05-26 00:57:48.954/DEBUG: 答案:血栓闭塞性脉管炎
+2026-05-26 00:57:49.616/DEBUG: 题目:患者男性35岁长期吸烟近1年来右下肢反复发作游走性浅静脉炎并有间歇性跛行皮肤温度降低色泽较苍白足背动脉搏动正常胫后动脉搏动减弱最可能的原因是
+2026-05-26 00:57:49.777/DEBUG: 答案:血栓闭塞性脉管炎
+2026-05-26 00:57:49.795/DEBUG: 题目:患者男性35岁长期吸烟近1年来右下肢反复发作游走性浅静脉炎并有间歇性跛行皮肤温度降低色泽较苍白足背动脉搏动正常胫后动脉搏动减弱最可能的原因是
+2026-05-26 00:57:49.886/DEBUG: 答案：血栓闭塞性脉管炎
+2026-05-26 00:57:50.233/DEBUG: 题目:患者男性35岁长期吸烟近1年来右下肢反复发作游走性浅静脉炎并有间歇性跛行皮肤温度降低色泽较苍白足背动脉搏动正常胫后动脉搏动减弱最可能的原因是
+2026-05-26 00:57:50.400/DEBUG: 答案:血栓闭塞性脉管炎
+2026-05-26 00:57:52.337/DEBUG: 题目:护士对颈椎病患者进行术后出院指导正确的是
+2026-05-26 00:57:52.488/DEBUG: 答案:每天交替进行耸肩和肩部放松的练习
+2026-05-26 00:57:52.986/DEBUG: 题目:护士对颈椎病患者进行术后出院指导正确的是
+2026-05-26 00:57:53.085/DEBUG: 答案：每天交替进行耸肩和肩部放松的练习
+2026-05-26 00:57:56.028/DEBUG: 题目:护士对颈椎病患者进行术后出院指导正确的是
+2026-05-26 00:57:56.101/DEBUG: 题目:护士对颈椎病患者进行术后出院指导正确的是
+2026-05-26 00:57:56.174/DEBUG: 答案:每天交替进行耸肩和肩部放松的练习
+2026-05-26 00:57:56.197/DEBUG: 答案：每天交替进行耸肩和肩部放松的练习
+2026-05-26 00:57:56.547/DEBUG: 题目:护士对颈椎病患者进行术后出院指导正确的是
+2026-05-26 00:57:56.714/DEBUG: 答案:每天交替进行耸肩和肩部放松的练习
+2026-05-26 00:57:57.011/DEBUG: 题目:护士对颈椎病患者进行术后出院指导正确的是
+2026-05-26 00:57:57.169/DEBUG: 答案:每天交替进行耸肩和肩部放松的练习
+2026-05-26 00:57:58.277/DEBUG: 题目:结石引起肾绞痛主要是
+2026-05-26 00:57:58.425/DEBUG: 答案:输尿管结石
+2026-05-26 00:57:59.233/DEBUG: 题目:结石引起肾绞痛主要是
+2026-05-26 00:57:59.325/DEBUG: 答案：输尿管结石
+2026-05-26 00:58:00.330/DEBUG: 题目:开放性气胸产生纵隔扑动的主要原因是
+2026-05-26 00:58:00.485/DEBUG: 答案:呼吸时两侧胸膜腔内的压力改变
+2026-05-26 00:58:02.399/DEBUG: 题目:骨折患者现场急救方法正确的是
+2026-05-26 00:58:02.403/DEBUG: 题目:骨折患者现场急救方法正确的是
+2026-05-26 00:58:02.500/DEBUG: 答案：疑有颈椎骨折者颈两侧应放沙袋等物固定
+2026-05-26 00:58:02.568/DEBUG: 答案:疑有颈椎骨折者颈两侧应放沙袋等物固定
+2026-05-26 00:58:03.700/DEBUG: 题目:骨折患者现场急救方法正确的是
+2026-05-26 00:58:03.850/DEBUG: 答案:疑有颈椎骨折者颈两侧应放沙袋等物固定
+2026-05-26 00:58:04.279/DEBUG: 题目:肾癌的典型三大症状是
+2026-05-26 00:58:04.430/DEBUG: 答案:血尿、肿块和疼痛
+2026-05-26 00:58:04.717/DEBUG: 题目:肾癌的典型三大症状是
+2026-05-26 00:58:04.859/DEBUG: 答案:血尿、肿块和疼痛
+2026-05-26 00:58:05.721/DEBUG: 题目:闭合性肾损伤非手术疗法常需卧床至
+2026-05-26 00:58:05.825/DEBUG: 答案：2~4周以后
+2026-05-26 00:58:06.413/DEBUG: 题目:闭合性肾损伤非手术疗法常需卧床至
+2026-05-26 00:58:06.585/DEBUG: 答案:2~4周以后
+2026-05-26 00:58:06.823/DEBUG: 题目:闭合性肾损伤非手术疗法常需卧床至
+2026-05-26 00:58:06.975/DEBUG: 答案:2~4周以后
+2026-05-26 00:58:07.988/DEBUG: 题目:重症脑损伤未休克患者的最适宜的体位是
+2026-05-26 00:58:08.138/DEBUG: 答案:床头抬高15~30cm
+2026-05-26 00:58:09.024/DEBUG: 题目:重症脑损伤未休克患者的最适宜的体位是
+2026-05-26 00:58:09.115/DEBUG: 答案：床头抬高15~30cm
+2026-05-26 00:58:09.551/DEBUG: 题目:某颅脑损伤患者神志丧失呼之不醒压其眶上神经出现皱眉上肢活动其意识障碍属于
+2026-05-26 00:58:09.707/DEBUG: 答案:浅昏迷
+2026-05-26 00:58:09.959/DEBUG: 题目:某颅脑损伤患者神志丧失呼之不醒压其眶上神经出现皱眉上肢活动其意识障碍属于
+2026-05-26 00:58:10.112/DEBUG: 答案:浅昏迷
+2026-05-26 00:58:11.219/DEBUG: 题目:下列关节中稳定性最好最不易脱位的是
+2026-05-26 00:58:11.373/DEBUG: 答案:髋关节
+2026-05-26 00:58:12.335/DEBUG: 题目:下列关节中稳定性最好最不易脱位的是
+2026-05-26 00:58:12.433/DEBUG: 答案：髋关节
+2026-05-26 00:58:15.605/WARN: 问题内容不能为空
+2026-05-26 00:58:15.606/DEBUG: 文档搜索
+2026-05-26 00:58:15.620/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:58:19.657/WARN: 问题内容不能为空
+2026-05-26 00:58:19.658/DEBUG: 文档搜索
+2026-05-26 00:58:19.661/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:58:22.775/WARN: 问题内容不能为空
+2026-05-26 00:58:22.777/DEBUG: 文档搜索
+2026-05-26 00:58:22.789/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:58:24.452/DEBUG: SELECT question,answer FROM tiku ORDER BY rowid DESC limit 20
+2026-05-26 00:58:25.904/WARN: 问题内容不能为空
+2026-05-26 00:58:25.906/DEBUG: 文档搜索
+2026-05-26 00:58:25.918/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:58:28.940/WARN: 问题内容不能为空
+2026-05-26 00:58:28.941/DEBUG: 文档搜索
+2026-05-26 00:58:28.952/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:58:31.959/WARN: 问题内容不能为空
+2026-05-26 00:58:31.960/DEBUG: 文档搜索
+2026-05-26 00:58:31.967/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 00:58:31.988/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时355.259000秒
+2026-05-26 00:58:31.989/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-26 00:58:31.989/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-26 00:58:32.004/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时355.275000秒
+2026-05-26 00:58:32.005/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-26 00:58:32.005/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-26 00:58:34.341/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-26 00:58:34.392/DEBUG: 已有悬浮窗权限
+2026-05-26 00:58:34.449/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-26 00:58:34.712/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-26 00:59:47.370/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时73.028000秒
+2026-05-26 01:11:05.902/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-26 01:11:06.204/DEBUG: 已有悬浮窗权限
+2026-05-26 01:11:06.312/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-26 01:11:06.643/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-26 01:11:10.156/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时4.252000秒
+2026-05-26 06:44:24.713/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-26 06:44:24.751/DEBUG: 已有悬浮窗权限
+2026-05-26 06:44:24.794/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-26 06:44:24.800/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-26 06:44:25.313/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-26 06:44:30.907/TRACE: 无障碍服务已创建(6cfe1e9)
+2026-05-26 06:44:30.941/TRACE: 无障碍服务已连接(6cfe1e9): 稳定模式: false
+2026-05-26 06:44:33.954/DEBUG: 瑞科消息  心跳开始
+2026-05-26 06:44:33.960/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-26 06:44:34.208/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-26 06:44:35.252/DEBUG:  开启线程
+2026-05-26 06:44:36.137/WARN: 问题内容不能为空
+2026-05-26 06:44:36.138/DEBUG: 文档搜索
+2026-05-26 06:44:36.166/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 06:44:39.214/WARN: 问题内容不能为空
+2026-05-26 06:44:39.215/DEBUG: 文档搜索
+2026-05-26 06:44:39.218/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 06:44:42.326/WARN: 问题内容不能为空
+2026-05-26 06:44:42.326/DEBUG: 文档搜索
+2026-05-26 06:44:42.332/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 06:44:45.428/WARN: 问题内容不能为空
+2026-05-26 06:44:45.428/DEBUG: 文档搜索
+2026-05-26 06:44:45.449/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 06:44:48.803/WARN: 问题内容不能为空
+2026-05-26 06:44:48.803/DEBUG: 文档搜索
+2026-05-26 06:44:48.809/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 06:44:51.885/DEBUG: 题目:洗胃的适应证是
+2026-05-26 06:44:51.981/DEBUG: 答案：除腐蚀性毒物中毒外所有服毒患者
+2026-05-26 06:44:55.034/DEBUG: 题目:洗胃的适应证是
+2026-05-26 06:44:55.121/DEBUG: 答案：除腐蚀性毒物中毒外所有服毒患者
+2026-05-26 06:44:58.171/DEBUG: 题目:洗胃的适应证是
+2026-05-26 06:44:58.253/DEBUG: 答案：除腐蚀性毒物中毒外所有服毒患者
+2026-05-26 06:45:01.284/DEBUG: 题目:洗胃的适应证是
+2026-05-26 06:45:01.375/DEBUG: 答案：除腐蚀性毒物中毒外所有服毒患者
+2026-05-26 06:45:04.412/DEBUG: 题目:洗胃的适应证是
+2026-05-26 06:45:04.499/DEBUG: 答案：除腐蚀性毒物中毒外所有服毒患者
+2026-05-26 06:45:07.593/DEBUG: 题目:为保证颅脑损伤深昏迷患者呼吸道通畅最可靠的措施是
+2026-05-26 06:45:07.677/DEBUG: 答案：气管切开
+2026-05-26 06:45:10.752/DEBUG: 题目:护士对血栓闭塞性脉管炎患者进行患肢保暖的健康教育正确的内容是
+2026-05-26 06:45:10.840/DEBUG: 答案：可将热水袋放于腹部来给四肢取暖
+2026-05-26 06:45:13.850/DEBUG: 题目:护士对血栓闭塞性脉管炎患者进行患肢保暖的健康教育正确的内容是
+2026-05-26 06:45:13.941/DEBUG: 答案：可将热水袋放于腹部来给四肢取暖
+2026-05-26 06:45:16.952/DEBUG: 题目:护士对血栓闭塞性脉管炎患者进行患肢保暖的健康教育正确的内容是
+2026-05-26 06:45:17.039/DEBUG: 答案：可将热水袋放于腹部来给四肢取暖
+2026-05-26 06:45:20.062/DEBUG: 题目:护士对血栓闭塞性脉管炎患者进行患肢保暖的健康教育正确的内容是
+2026-05-26 06:45:20.153/DEBUG: 答案：可将热水袋放于腹部来给四肢取暖
+2026-05-26 06:45:23.232/DEBUG: 题目:能用于常规查体且能发现早期肾癌的简便方法是
+2026-05-26 06:45:23.335/DEBUG: 答案：B超检查
+2026-05-26 06:45:26.403/DEBUG: 题目:某患者因外伤造成左侧胸部47肋骨多处骨折呼吸时患处可能出现
+2026-05-26 06:45:26.492/DEBUG: 答案：吸气时内陷呼气时外凸
+2026-05-26 06:45:29.559/DEBUG: 题目:下列泌尿系检查前不需行常规肠道准备的是
+2026-05-26 06:45:29.659/DEBUG: 答案：B超
+2026-05-26 06:45:32.710/DEBUG: 题目:下列泌尿系检查前不需行常规肠道准备的是
+2026-05-26 06:45:32.803/DEBUG: 答案：B超
+2026-05-26 06:45:35.896/DEBUG: 题目:患者女性53岁患腰椎间盘突出症半年有典型坐骨神经痛外踝附近及足外侧痛触觉减退足跖屈力减弱跟腱反射减弱其椎间盘突出可能在
+2026-05-26 06:45:35.995/DEBUG: 答案：L5~S1间盘
+2026-05-26 06:45:39.076/DEBUG: 题目:变应性鼻炎表现为
+2026-05-26 06:45:39.173/DEBUG: 答案：清水涕与体位无关
+2026-05-26 06:45:42.198/DEBUG: 题目:变应性鼻炎表现为
+2026-05-26 06:45:42.293/DEBUG: 答案：清水涕与体位无关
+2026-05-26 06:45:45.312/DEBUG: 题目:变应性鼻炎表现为
+2026-05-26 06:45:45.411/DEBUG: 答案：清水涕与体位无关
+2026-05-26 06:45:48.478/DEBUG: 题目:变应性鼻炎表现为
+2026-05-26 06:45:48.574/DEBUG: 答案：清水涕与体位无关
+2026-05-26 06:45:51.631/DEBUG: 题目:变应性鼻炎表现为
+2026-05-26 06:45:51.728/DEBUG: 答案：清水涕与体位无关
+2026-05-26 06:45:54.820/DEBUG: 题目:见于心功能不全的是
+2026-05-26 06:45:54.921/DEBUG: 答案：潮式呼吸
+2026-05-26 06:45:58.005/DEBUG: 题目:下列描述不属于喉的生理功能的是
+2026-05-26 06:45:58.101/DEBUG: 答案：吞咽功能
+2026-05-26 06:46:01.165/DEBUG: 题目:下列描述不属于喉的生理功能的是
+2026-05-26 06:46:01.259/DEBUG: 答案：吞咽功能
+2026-05-26 06:46:04.298/DEBUG: 题目:关于髋关节脱位的叙述正确的是
+2026-05-26 06:46:04.386/DEBUG: 答案：髋关节屈曲、内收、内旋、缩短畸形
+2026-05-26 06:46:07.456/DEBUG: 题目:骨折现场急救方法错误的是
+2026-05-26 06:46:07.556/DEBUG: 答案：开放性骨折应现场复位
+2026-05-26 06:46:10.637/DEBUG: 题目:骨折现场急救方法错误的是
+2026-05-26 06:46:10.721/DEBUG: 答案：开放性骨折应现场复位
+2026-05-26 06:46:13.760/DEBUG: 题目:在肺癌的普查和诊断中占重要地位的检查是
+2026-05-26 06:46:13.846/DEBUG: 答案：X线检查
+2026-05-26 06:46:16.881/DEBUG: 题目:结石引起排尿中断主要是
+2026-05-26 06:46:16.977/DEBUG: 答案：膀胱结石
+2026-05-26 06:46:20.064/DEBUG: 题目:结石引起排尿中断主要是
+2026-05-26 06:46:20.161/DEBUG: 答案：膀胱结石
+2026-05-26 06:46:23.178/DEBUG: 题目:结石引起排尿中断主要是
+2026-05-26 06:46:23.270/DEBUG: 答案：膀胱结石
+2026-05-26 06:46:26.364/DEBUG: 题目:结石引起排尿中断主要是
+2026-05-26 06:46:26.459/DEBUG: 答案：膀胱结石
+2026-05-26 06:46:29.470/WARN: 问题内容不能为空
+2026-05-26 06:46:29.471/DEBUG: 文档搜索
+2026-05-26 06:46:29.473/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 06:46:32.521/WARN: 问题内容不能为空
+2026-05-26 06:46:32.522/DEBUG: 文档搜索
+2026-05-26 06:46:32.528/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 06:46:35.539/WARN: 问题内容不能为空
+2026-05-26 06:46:35.540/DEBUG: 文档搜索
+2026-05-26 06:46:35.544/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 06:46:37.334/DEBUG: SELECT question,answer FROM tiku ORDER BY rowid DESC limit 20
+2026-05-26 06:46:38.567/WARN: 问题内容不能为空
+2026-05-26 06:46:38.568/DEBUG: 文档搜索
+2026-05-26 06:46:38.572/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 06:46:41.577/WARN: 问题内容不能为空
+2026-05-26 06:46:41.577/DEBUG: 文档搜索
+2026-05-26 06:46:41.581/DEBUG: 错误信息: Can't find method android.widget.TextView.setText(org.mozilla.javascript.Undefined). (main.js#1031)
+2026-05-26 06:46:41.661/DEBUG: 重置完毕!
+2026-05-26 06:46:42.693/DEBUG: SELECT question,answer FROM tiku ORDER BY rowid DESC limit 20
+2026-05-26 06:46:43.407/DEBUG: 重置完毕!
+2026-05-26 06:46:45.890/ERROR: Thread[main,5]: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:451:0
+ 
+2026-05-26 06:46:49.307/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时144.592000秒
+2026-05-26 06:46:49.308/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-26 06:46:49.308/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-26 06:46:49.321/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时144.607000秒
+2026-05-26 06:46:49.321/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-26 06:46:49.322/ERROR: Wrapped java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+    at file:///android_asset/modules/__engines__.js:19:0
+    at main.js:425:0
+    at file:///android_asset/modules/__bridges__.js:10:0
+
+2026-05-26 18:14:37.405/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-26 18:14:37.447/DEBUG: 已有悬浮窗权限
+2026-05-26 18:14:37.488/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-26 18:14:37.494/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-26 18:14:37.915/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-26 18:14:39.394/TRACE: 无障碍服务已创建(a3e9335)
+2026-05-26 18:14:39.431/TRACE: 无障碍服务已连接(a3e9335): 稳定模式: false
+2026-05-26 18:14:42.257/DEBUG: 瑞科消息  心跳开始
+2026-05-26 18:14:42.264/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-26 18:14:42.497/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-26 18:19:03.561/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时266.149000秒
+2026-05-26 19:07:07.735/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-26 19:07:07.779/DEBUG: 已有悬浮窗权限
+2026-05-26 19:07:07.816/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-26 19:07:08.110/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-26 19:07:09.887/DEBUG: 瑞科消息  心跳开始
+2026-05-26 19:07:09.891/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-26 19:07:10.088/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-26 19:08:45.298/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时97.560000秒
+2026-05-26 19:08:45.323/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时97.586000秒
+2026-05-27 03:47:29.115/DEBUG: 没有悬浮窗权限,将跳转到开启悬浮窗权限界面
+2026-05-27 03:47:29.182/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-27 03:47:29.284/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-27 03:47:30.456/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-27 03:47:31.542/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时2.483000秒
+2026-05-27 03:47:31.545/ERROR: 
+java.lang.SecurityException: 没有悬浮窗权限
+	at com.stardust.autojs.core.ui.dialog.JsDialog.showInner(Unknown Source:47)
+	at com.stardust.autojs.core.ui.dialog.JsDialog.show(Unknown Source:27)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.mozilla.javascript.MemberBox.invoke(Unknown Source:39)
+	at org.mozilla.javascript.NativeJavaMethod.call(Unknown Source:188)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.Synchronizer.call(Unknown Source:21)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.ContextFactory.doTopCall(Unknown Source:0)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(Unknown Source:33)
+	at org.mozilla.javascript.InterpretedFunction.exec(Unknown Source:22)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.doExecution(Unknown Source:46)
+	at b2.c.doExecution(SourceFile:10)
+	at b2.a.doExecution(SourceFile:2)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.execute(Unknown Source:20)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.execute$lambda-0(Unknown Source:10)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.h(Unknown Source:0)
+	at com.stardust.autojs.engine.a.run(Unknown Source:18)
+	at android.os.Handler.handleCallback(Handler.java:1014)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loopOnce(Looper.java:250)
+	at android.os.Looper.loop(Looper.java:340)
+	at android.app.ActivityThread.main(ActivityThread.java:9930)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+2026-05-27 03:47:31.546/ERROR: 
+java.lang.SecurityException: 没有悬浮窗权限
+	at com.stardust.autojs.core.ui.dialog.JsDialog.showInner(Unknown Source:47)
+	at com.stardust.autojs.core.ui.dialog.JsDialog.show(Unknown Source:27)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.mozilla.javascript.MemberBox.invoke(Unknown Source:39)
+	at org.mozilla.javascript.NativeJavaMethod.call(Unknown Source:188)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.Synchronizer.call(Unknown Source:21)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.ContextFactory.doTopCall(Unknown Source:0)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(Unknown Source:33)
+	at org.mozilla.javascript.InterpretedFunction.exec(Unknown Source:22)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.doExecution(Unknown Source:46)
+	at b2.c.doExecution(SourceFile:10)
+	at b2.a.doExecution(SourceFile:2)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.execute(Unknown Source:20)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.execute$lambda-0(Unknown Source:10)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.h(Unknown Source:0)
+	at com.stardust.autojs.engine.a.run(Unknown Source:18)
+	at android.os.Handler.handleCallback(Handler.java:1014)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loopOnce(Looper.java:250)
+	at android.os.Looper.loop(Looper.java:340)
+	at android.app.ActivityThread.main(ActivityThread.java:9930)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+2026-05-27 03:47:31.581/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时2.522000秒
+2026-05-27 03:47:31.581/ERROR: 
+java.lang.SecurityException: 没有悬浮窗权限
+	at com.stardust.autojs.core.ui.dialog.JsDialog.showInner(Unknown Source:47)
+	at com.stardust.autojs.core.ui.dialog.JsDialog.show(Unknown Source:27)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.mozilla.javascript.MemberBox.invoke(Unknown Source:39)
+	at org.mozilla.javascript.NativeJavaMethod.call(Unknown Source:188)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.Synchronizer.call(Unknown Source:21)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.ContextFactory.doTopCall(Unknown Source:0)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(Unknown Source:33)
+	at org.mozilla.javascript.InterpretedFunction.exec(Unknown Source:22)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.doExecution(Unknown Source:46)
+	at b2.c.doExecution(SourceFile:10)
+	at b2.a.doExecution(SourceFile:2)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.execute(Unknown Source:20)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.execute$lambda-0(Unknown Source:10)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.h(Unknown Source:0)
+	at com.stardust.autojs.engine.a.run(Unknown Source:18)
+	at android.os.Handler.handleCallback(Handler.java:1014)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loopOnce(Looper.java:250)
+	at android.os.Looper.loop(Looper.java:340)
+	at android.app.ActivityThread.main(ActivityThread.java:9930)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+2026-05-27 03:47:31.581/ERROR: 
+java.lang.SecurityException: 没有悬浮窗权限
+	at com.stardust.autojs.core.ui.dialog.JsDialog.showInner(Unknown Source:47)
+	at com.stardust.autojs.core.ui.dialog.JsDialog.show(Unknown Source:27)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.mozilla.javascript.MemberBox.invoke(Unknown Source:39)
+	at org.mozilla.javascript.NativeJavaMethod.call(Unknown Source:188)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.Synchronizer.call(Unknown Source:21)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Unknown Source:5350)
+	at org.mozilla.javascript.Interpreter.interpret(Unknown Source:56)
+	at org.mozilla.javascript.InterpretedFunction.call(Unknown Source:20)
+	at org.mozilla.javascript.ContextFactory.doTopCall(Unknown Source:0)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(Unknown Source:33)
+	at org.mozilla.javascript.InterpretedFunction.exec(Unknown Source:22)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.doExecution(Unknown Source:46)
+	at b2.c.doExecution(SourceFile:10)
+	at b2.a.doExecution(SourceFile:2)
+	at com.stardust.autojs.engine.RhinoJavaScriptEngine.execute(Unknown Source:20)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.execute$lambda-0(Unknown Source:10)
+	at com.stardust.autojs.engine.LoopBasedJavaScriptEngine.h(Unknown Source:0)
+	at com.stardust.autojs.engine.a.run(Unknown Source:18)
+	at android.os.Handler.handleCallback(Handler.java:1014)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loopOnce(Looper.java:250)
+	at android.os.Looper.loop(Looper.java:340)
+	at android.app.ActivityThread.main(ActivityThread.java:9930)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+2026-05-27 03:47:46.539/TRACE: 无障碍服务已创建(8d22db1)
+2026-05-27 03:47:46.605/TRACE: 无障碍服务已连接(8d22db1): 稳定模式: false
+2026-05-27 03:47:57.824/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-27 03:47:57.865/DEBUG: 已有悬浮窗权限
+2026-05-27 03:47:57.922/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-27 03:47:58.249/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-27 03:48:11.614/DEBUG: 瑞科消息 错误编码：1013 错误消息：非绑定设备上登陆
+2026-05-27 03:48:20.761/DEBUG: 瑞科消息 错误编码：1013 错误消息：非绑定设备上登陆
+2026-05-27 03:58:47.322/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时649.497000秒
+2026-05-27 03:58:47.341/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时649.517000秒
+2026-05-27 04:26:30.515/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-27 04:26:30.562/DEBUG: 已有悬浮窗权限
+2026-05-27 04:26:30.640/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-27 04:26:31.048/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-27 04:26:38.601/DEBUG: 瑞科消息 错误编码：1013 错误消息：非绑定设备上登陆
+2026-05-27 04:26:38.982/DEBUG: 瑞科消息 错误编码：1013 错误消息：非绑定设备上登陆
+2026-05-27 09:15:05.909/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时17315.388000秒
+2026-05-27 09:15:05.941/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时17315.424000秒
+2026-05-27 09:16:20.893/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-27 09:16:20.935/DEBUG: 已有悬浮窗权限
+2026-05-27 09:16:20.980/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-27 09:16:21.341/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-27 09:16:24.441/DEBUG: 瑞科消息  心跳开始
+2026-05-27 09:16:24.449/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-27 09:16:24.665/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-27 09:16:32.169/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/updateTiku.js]
+2026-05-27 09:16:35.590/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/updateTiku.js]
+2026-05-27 09:16:36.329/INFO: 高版本Android 10系统中，在后台启动应用(包括类似launchApp, requestScreenCapture等多个函数)会失效；某些定制即使在低版本Android也会有这种情况，可以尝试授予"后台打开界面"权限（如果有的话）
+2026-05-27 09:16:36.329/INFO: 高版本Android 10系统中，在后台启动应用(包括类似launchApp, requestScreenCapture等多个函数)会失效；某些定制即使在低版本Android也会有这种情况，可以尝试授予"后台打开界面"权限（如果有的话）
+2026-05-27 09:16:36.461/DEBUG: 请手动打开并进入一道练习题，将进行全自动提取
+2026-05-27 09:16:36.463/DEBUG: 等待进入练习题
+2026-05-27 09:16:36.480/DEBUG: 请手动打开并进入一道练习题，将进行全自动提取
+2026-05-27 09:16:36.481/DEBUG: 等待进入练习题
+2026-05-27 09:16:59.929/DEBUG: 题目:下列描述不属于气管支气管功能的是
+2026-05-27 09:16:59.931/DEBUG: 题目:下列描述不属于气管支气管功能的是
+2026-05-27 09:17:00.230/INFO: 答案：屏气功能
+2026-05-27 09:17:00.233/INFO: 答案：屏气功能
+2026-05-27 09:17:00.345/DEBUG: 2写入题库
+2026-05-27 09:17:00.345/DEBUG: 2写入题库
+2026-05-27 09:17:00.348/DEBUG: 题库导出成功!
+2026-05-27 09:17:00.349/DEBUG: 题库导出成功!
+2026-05-27 09:17:00.482/DEBUG: true
+2026-05-27 09:17:00.482/DEBUG: true
+2026-05-27 09:17:01.137/DEBUG: 已连续答对1题
+2026-05-27 09:17:01.137/DEBUG: 已连续答对1题
+2026-05-27 09:17:03.193/DEBUG: 随机延时了2053毫秒
+2026-05-27 09:17:03.223/DEBUG: 题目:决定膀胱癌预后的主要因素是
+2026-05-27 09:17:03.249/DEBUG: 随机延时了2109毫秒
+2026-05-27 09:17:03.276/DEBUG: 题目:决定膀胱癌预后的主要因素是
+2026-05-27 09:17:03.441/INFO: 答案：肿瘤浸润深度
+2026-05-27 09:17:03.467/DEBUG: 2写入题库
+2026-05-27 09:17:03.470/DEBUG: 题库导出成功!
+2026-05-27 09:17:03.477/INFO: 答案：肿瘤浸润深度
+2026-05-27 09:17:03.501/DEBUG: 2题库已保存过了
+2026-05-27 09:17:03.600/DEBUG: true
+2026-05-27 09:17:03.625/DEBUG: true
+2026-05-27 09:17:04.148/DEBUG: 已连续答对2题
+2026-05-27 09:17:04.148/DEBUG: 已连续答对2题
+2026-05-27 09:17:06.278/DEBUG: 随机延时了2127毫秒
+2026-05-27 09:17:06.311/DEBUG: 题目:鼻腔肿瘤表现为
+2026-05-27 09:17:06.508/INFO: 答案：鼻出血、鼻塞、擤涕困难
+2026-05-27 09:17:06.516/DEBUG: 随机延时了2366毫秒
+2026-05-27 09:17:06.528/DEBUG: 题目:鼻腔肿瘤表现为
+2026-05-27 09:17:06.536/DEBUG: 2写入题库
+2026-05-27 09:17:06.540/DEBUG: 题库导出成功!
+2026-05-27 09:17:06.664/DEBUG: true
+2026-05-27 09:17:06.735/INFO: 答案：鼻出血、鼻塞、擤涕困难
+2026-05-27 09:17:06.772/DEBUG: 2题库已保存过了
+2026-05-27 09:17:06.923/DEBUG: false
+2026-05-27 09:17:06.951/DEBUG: 507错误信息: Cannot call method "text" of null
+2026-05-27 09:17:06.951/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/updateTiku.js]运行结束，用时31.361000秒
+2026-05-27 09:17:07.109/DEBUG: 已连续答对3题
+2026-05-27 09:17:09.488/DEBUG: 随机延时了2376毫秒
+2026-05-27 09:17:09.520/DEBUG: 题目:患者男性33岁因腰椎间盘突出症急性发作入院接受牵引治疗护理措施正确的是
+2026-05-27 09:17:09.735/INFO: 答案：床尾抬高20cm
+2026-05-27 09:17:09.761/DEBUG: 2写入题库
+2026-05-27 09:17:09.765/DEBUG: 题库导出成功!
+2026-05-27 09:17:09.903/DEBUG: true
+2026-05-27 09:17:10.416/DEBUG: 已连续答对4题
+2026-05-27 09:17:12.805/DEBUG: 随机延时了2386毫秒
+2026-05-27 09:17:12.825/DEBUG: 题目:诊断膀胱破裂的方法不包括
+2026-05-27 09:17:13.027/INFO: 答案：KUB
+2026-05-27 09:17:13.048/DEBUG: 2写入题库
+2026-05-27 09:17:13.051/DEBUG: 题库导出成功!
+2026-05-27 09:17:13.178/DEBUG: true
+2026-05-27 09:17:13.594/DEBUG: 已连续答对5题
+2026-05-27 09:17:16.058/DEBUG: 随机延时了2462毫秒
+2026-05-27 09:17:16.133/DEBUG: 题目:张力性气胸患者的紧急处理方法是
+2026-05-27 09:17:16.343/INFO: 答案：胸腔穿刺排气减压
+2026-05-27 09:17:16.376/DEBUG: 2写入题库
+2026-05-27 09:17:16.380/DEBUG: 题库导出成功!
+2026-05-27 09:17:16.531/DEBUG: true
+2026-05-27 09:17:17.055/DEBUG: 已连续答对6题
+2026-05-27 09:17:19.352/DEBUG: 随机延时了2294毫秒
+2026-05-27 09:17:19.375/DEBUG: 题目:开颅手术最危险的并发症是
+2026-05-27 09:17:19.589/INFO: 答案：颅内出血
+2026-05-27 09:17:19.621/DEBUG: 2写入题库
+2026-05-27 09:17:19.625/DEBUG: 题库导出成功!
+2026-05-27 09:17:19.768/DEBUG: true
+2026-05-27 09:17:20.308/DEBUG: 已连续答对7题
+2026-05-27 09:17:22.477/DEBUG: 随机延时了2166毫秒
+2026-05-27 09:17:22.502/DEBUG: 题目:患者男性52岁食管癌手术后第3天拔除胃管后口服流质第5天体温升高到39呼吸困难胸痛脉速胸透发现手术侧胸腔积液应首先考虑并发
+2026-05-27 09:17:22.710/INFO: 答案：食管吻合口瘘
+2026-05-27 09:17:22.739/DEBUG: 2写入题库
+2026-05-27 09:17:22.742/DEBUG: 题库导出成功!
+2026-05-27 09:17:22.889/DEBUG: true
+2026-05-27 09:17:23.345/DEBUG: 已连续答对8题
+2026-05-27 09:17:25.780/DEBUG: 随机延时了2432毫秒
+2026-05-27 09:17:25.884/DEBUG: 题目:髋关节脱位不会出现的临床表现是
+2026-05-27 09:17:26.094/INFO: 答案：患肢屈曲、内收外旋畸形
+2026-05-27 09:17:26.122/DEBUG: 2写入题库
+2026-05-27 09:17:26.126/DEBUG: 题库导出成功!
+2026-05-27 09:17:26.269/DEBUG: true
+2026-05-27 09:17:26.837/DEBUG: 已连续答对9题
+2026-05-27 09:17:28.893/DEBUG: 随机延时了2053毫秒
+2026-05-27 09:17:28.926/DEBUG: 题目:脊柱骨折患者急救运送方法正确的是
+2026-05-27 09:17:29.141/INFO: 答案：三人平托放于硬板搬运
+2026-05-27 09:17:29.171/DEBUG: 2写入题库
+2026-05-27 09:17:29.175/DEBUG: 题库导出成功!
+2026-05-27 09:17:29.321/DEBUG: true
+2026-05-27 09:17:29.892/DEBUG: 已连续答对10题
+2026-05-27 09:17:32.355/DEBUG: 随机延时了2460毫秒
+2026-05-27 09:17:32.388/DEBUG: 题目:有机磷中度中毒时血胆碱酯酶活力为
+2026-05-27 09:17:32.600/INFO: 答案：50%~30%
+2026-05-27 09:17:32.629/DEBUG: 2写入题库
+2026-05-27 09:17:32.632/DEBUG: 题库导出成功!
+2026-05-27 09:17:32.782/DEBUG: true
+2026-05-27 09:17:33.414/DEBUG: 已连续答对11题
+2026-05-27 09:17:35.870/DEBUG: 随机延时了2453毫秒
+2026-05-27 09:17:35.898/DEBUG: 题目:见于肺气肿的是
+2026-05-27 09:17:36.111/INFO: 答案：哮喘性呼吸
+2026-05-27 09:17:36.143/DEBUG: 2写入题库
+2026-05-27 09:17:36.148/DEBUG: 题库导出成功!
+2026-05-27 09:17:36.295/DEBUG: true
+2026-05-27 09:17:36.760/DEBUG: 已连续答对12题
+2026-05-27 09:17:38.833/DEBUG: 随机延时了2071毫秒
+2026-05-27 09:17:38.862/DEBUG: 题目:患者女性45岁因脑肿瘤颅内压增高行脑室引流术后3小时引流管无脑脊液流出不正确的处理方法是
+2026-05-27 09:17:39.071/INFO: 答案：生理盐水冲洗
+2026-05-27 09:17:39.112/DEBUG: 2写入题库
+2026-05-27 09:17:39.117/DEBUG: 题库导出成功!
+2026-05-27 09:17:39.267/DEBUG: true
+2026-05-27 09:17:39.755/DEBUG: 已连续答对13题
+2026-05-27 09:17:41.805/DEBUG: 随机延时了2048毫秒
+2026-05-27 09:17:41.834/DEBUG: 题目:对放疗及化疗均敏感的肺癌类型是
+2026-05-27 09:17:42.046/INFO: 答案：小细胞癌
+2026-05-27 09:17:42.071/DEBUG: 2写入题库
+2026-05-27 09:17:42.075/DEBUG: 题库导出成功!
+2026-05-27 09:17:42.210/DEBUG: true
+2026-05-27 09:17:42.900/DEBUG: 已连续答对14题
+2026-05-27 09:17:45.302/DEBUG: 随机延时了2399毫秒
+2026-05-27 09:17:45.333/DEBUG: 题目:直径05的结石
+2026-05-27 09:17:45.546/INFO: 答案：中西医排石
+2026-05-27 09:17:45.578/DEBUG: 2写入题库
+2026-05-27 09:17:45.582/DEBUG: 题库导出成功!
+2026-05-27 09:17:45.718/DEBUG: true
+2026-05-27 09:17:52.180/DEBUG: 已连续答对15题
+2026-05-27 09:17:54.213/DEBUG: 随机延时了2030毫秒
+2026-05-27 09:17:54.309/DEBUG: 题目:确诊膀胱肿瘤最可靠的检查方法是
+2026-05-27 09:17:54.517/INFO: 答案：膀胱镜检查+活检
+2026-05-27 09:17:54.551/DEBUG: 2写入题库
+2026-05-27 09:17:54.554/DEBUG: 题库导出成功!
+2026-05-27 09:17:54.698/DEBUG: true
+2026-05-27 09:17:55.160/DEBUG: 已连续答对16题
+2026-05-27 09:17:57.635/DEBUG: 随机延时了2473毫秒
+2026-05-27 09:17:57.719/DEBUG: 题目:颈椎病发生的基本原因是
+2026-05-27 09:17:57.929/INFO: 答案：颈椎间盘退行性变
+2026-05-27 09:17:57.960/DEBUG: 2写入题库
+2026-05-27 09:17:57.964/DEBUG: 题库导出成功!
+2026-05-27 09:17:58.107/DEBUG: true
+2026-05-27 09:17:58.716/DEBUG: 已连续答对17题
+2026-05-27 09:18:01.215/DEBUG: 随机延时了2496毫秒
+2026-05-27 09:18:01.245/DEBUG: 题目:以下有关肾盂造瘘患者护理叙述不正确的是
+2026-05-27 09:18:01.456/INFO: 答案：每隔2~4小时用生理盐水20ml冲洗
+2026-05-27 09:18:01.484/DEBUG: 2写入题库
+2026-05-27 09:18:01.489/DEBUG: 题库导出成功!
+2026-05-27 09:18:01.642/DEBUG: true
+2026-05-27 09:18:02.235/DEBUG: 已连续答对18题
+2026-05-27 09:18:04.567/DEBUG: 随机延时了2329毫秒
+2026-05-27 09:18:04.636/DEBUG: 题目:留置胸膜腔闭式引流管的患者出现引流管脱出首先要
+2026-05-27 09:18:04.842/INFO: 答案：用无菌敷料封闭伤口
+2026-05-27 09:18:04.873/DEBUG: 2写入题库
+2026-05-27 09:18:04.877/DEBUG: 题库导出成功!
+2026-05-27 09:18:05.005/DEBUG: true
+2026-05-27 09:18:05.600/DEBUG: 已连续答对19题
+2026-05-27 09:18:07.910/DEBUG: 随机延时了2308毫秒
+2026-05-27 09:18:12.723/DEBUG: SELECT question,answer FROM tiku ORDER BY rowid DESC limit 20
+2026-05-27 09:18:19.074/DEBUG: 已经是最后一条了！
+2026-05-27 09:18:19.354/DEBUG: 已经是最后一条了！
+2026-05-27 09:18:21.715/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/下载题库.js]
+2026-05-27 09:18:21.717/DEBUG: 🚀 脚本启动，开始下载必要文件...
+2026-05-27 09:18:21.719/DEBUG: 📦 开始下载文件...
+2026-05-27 09:18:21.719/DEBUG: ⏳ 正在下载 下载小伙伴的题库 (1/1)...
+2026-05-27 09:18:21.719/DEBUG: 🔗 URL: https://raw.githubusercontent.com/xing718/Nursingmaster_/main/增加题库.txt
+2026-05-27 09:18:37.602/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/上传题库.js]
+2026-05-27 09:18:42.090/DEBUG: 已经是最后一条了！
+2026-05-27 09:18:43.748/DEBUG: 文件 增加题库.txt 更新成功
+2026-05-27 09:18:43.749/DEBUG: 已清空本地文件: ./上传题库.txt
+2026-05-27 09:18:43.749/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/上传题库.js]运行结束，用时6.147000秒
+2026-05-27 09:19:56.297/ERROR: ❌ 文件下载过程中发生错误:
+2026-05-27 09:19:56.298/ERROR: 	at file:///android_asset/modules/__http__.js:242
+	at 下载题库.js:40
+
+2026-05-27 09:19:56.299/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/下载题库.js]运行结束，用时94.584000秒
+2026-05-27 09:21:21.645/DEBUG: 重置完毕!
+2026-05-27 09:21:22.845/DEBUG: SELECT question,answer FROM tiku ORDER BY rowid DESC limit 20
+2026-05-27 09:21:24.525/DEBUG: 重置完毕!
+2026-05-27 09:21:31.729/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/main.js]运行结束，用时310.836000秒
+2026-05-27 09:21:31.740/DEBUG: 507错误信息: com.stardust.autojs.runtime.exception.ScriptInterruptedException: null
+2026-05-27 09:21:31.740/TRACE: 
+------------
+[/data/user/0/com.xx.xzsgf/files/project/updateTiku.js]运行结束，用时299.571000秒
+2026-05-27 09:24:34.517/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/main.js]
+2026-05-27 09:24:34.569/DEBUG: 已有悬浮窗权限
+2026-05-27 09:24:34.624/ERROR: Thread[main,5]: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at main.js:29:0
+ 
+2026-05-27 09:24:34.690/DEBUG: 瑞科网络验证SDK v5.4
+2026-05-27 09:24:35.332/DEBUG: 瑞科消息 瑞科初化化成功
+2026-05-27 09:24:36.722/TRACE: 无障碍服务已创建(999074b)
+2026-05-27 09:24:36.761/TRACE: 无障碍服务已连接(999074b): 稳定模式: false
+2026-05-27 09:24:39.737/DEBUG: 瑞科消息  心跳开始
+2026-05-27 09:24:39.745/DEBUG: 瑞科消息 瑞科登录成功
+2026-05-27 09:24:39.955/DEBUG: 瑞科消息  心跳正常运行中
+2026-05-27 09:24:43.134/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/updateTiku.js]
+2026-05-27 09:24:45.401/INFO: 高版本Android 10系统中，在后台启动应用(包括类似launchApp, requestScreenCapture等多个函数)会失效；某些定制即使在低版本Android也会有这种情况，可以尝试授予"后台打开界面"权限（如果有的话）
+2026-05-27 09:24:45.626/DEBUG: 请手动打开并进入一道练习题，将进行全自动提取
+2026-05-27 09:24:45.627/DEBUG: 等待进入练习题
+2026-05-27 09:24:48.169/DEBUG: 题目:护士在处理和执行医嘱的过程中下列选项属于违法行为的是
+2026-05-27 09:24:48.372/INFO: 答案：对医嘱提出质疑并自行修改
+2026-05-27 09:24:48.461/DEBUG: 2写入题库
+2026-05-27 09:24:48.466/DEBUG: 题库导出成功!
+2026-05-27 09:24:48.609/DEBUG: true
+2026-05-27 09:24:49.183/DEBUG: 已连续答对1题
+2026-05-27 09:24:51.292/DEBUG: 随机延时了2106毫秒
+2026-05-27 09:24:51.323/DEBUG: 题目:由责任护士对病人的身心健康实施有计划有目的的整体护理属于
+2026-05-27 09:24:51.527/WARN: 题库'tiku'中未找到相关答案
+2026-05-27 09:24:51.529/DEBUG: 题库文件读取失败
+2026-05-27 09:24:51.529/INFO: 答案：undefined
+2026-05-27 09:24:51.790/DEBUG: 已随机点击答案
+2026-05-27 09:24:52.044/DEBUG: 找到的答案: 责任制护理
+2026-05-27 09:24:52.091/DEBUG: 1写入题库
+2026-05-27 09:24:52.138/DEBUG: 题库导出成功!
+2026-05-27 09:24:52.139/DEBUG: 更新题库答案...
+2026-05-27 09:24:52.140/DEBUG: -------------------------------
+2026-05-27 09:24:54.511/DEBUG: 随机延时了2083毫秒
+2026-05-27 09:24:54.538/DEBUG: 题目:医院病床之间的距离至少应保持在
+2026-05-27 09:24:54.729/INFO: 答案：1m
+2026-05-27 09:24:54.747/DEBUG: 2写入题库
+2026-05-27 09:24:54.751/DEBUG: 题库导出成功!
+2026-05-27 09:24:54.886/DEBUG: true
+2026-05-27 09:24:55.601/DEBUG: 已连续答对1题
+2026-05-27 09:24:57.824/DEBUG: 随机延时了2219毫秒
+2026-05-27 09:24:57.849/DEBUG: 题目:青霉素过敏试验应采用
+2026-05-27 09:24:58.060/INFO: 答案：皮内注射
+2026-05-27 09:24:58.096/DEBUG: 2写入题库
+2026-05-27 09:24:58.101/DEBUG: 题库导出成功!
+2026-05-27 09:24:58.250/DEBUG: true
+2026-05-27 09:24:58.769/DEBUG: 已连续答对2题
+2026-05-27 09:25:00.928/DEBUG: 随机延时了2156毫秒
+2026-05-27 09:25:00.950/DEBUG: 题目:需2024保存保存期为24小时的血液制品是
+2026-05-27 09:25:01.157/INFO: 答案：血小板浓缩悬液
+2026-05-27 09:25:01.191/DEBUG: 2写入题库
+2026-05-27 09:25:01.198/DEBUG: 题库导出成功!
+2026-05-27 09:25:01.331/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:25:01.866/DEBUG: 已连续答对3题
+2026-05-27 09:25:04.039/DEBUG: 随机延时了2171毫秒
+2026-05-27 09:25:04.128/DEBUG: 题目:病人女50岁遵医嘱口服磺胺类药护士嘱病人服药后多饮水其目的是
+2026-05-27 09:25:04.337/INFO: 答案：避免药物结晶堵塞肾小管
+2026-05-27 09:25:04.370/DEBUG: 2写入题库
+2026-05-27 09:25:04.377/DEBUG: 题库导出成功!
+2026-05-27 09:25:04.521/DEBUG: true
+2026-05-27 09:25:04.978/DEBUG: 已连续答对4题
+2026-05-27 09:25:07.360/DEBUG: 随机延时了2379毫秒
+2026-05-27 09:25:07.386/DEBUG: 题目:大量不保留灌肠的禁忌证不包括
+2026-05-27 09:25:07.594/INFO: 答案：甲状腺手术后
+2026-05-27 09:25:07.629/DEBUG: 2写入题库
+2026-05-27 09:25:07.633/DEBUG: 题库导出成功!
+2026-05-27 09:25:07.781/DEBUG: true
+2026-05-27 09:25:08.358/DEBUG: 已连续答对5题
+2026-05-27 09:25:10.679/DEBUG: 随机延时了2317毫秒
+2026-05-27 09:25:10.709/DEBUG: 题目:肌内注射时选用连线法进行体表定位其注射区域正确的是
+2026-05-27 09:25:10.915/INFO: 答案：髂前上棘和尾骨连线的外上1/3处
+2026-05-27 09:25:10.950/DEBUG: 2写入题库
+2026-05-27 09:25:10.955/DEBUG: 题库导出成功!
+2026-05-27 09:25:11.105/DEBUG: true
+2026-05-27 09:25:11.683/DEBUG: 已连续答对6题
+2026-05-27 09:25:13.858/DEBUG: 随机延时了2171毫秒
+2026-05-27 09:25:13.895/DEBUG: 题目:关于无菌技术的操作原则下列描述正确的是
+2026-05-27 09:25:14.109/INFO: 答案：操作者身体应与无菌区保持一定的距离
+2026-05-27 09:25:14.142/DEBUG: 2写入题库
+2026-05-27 09:25:14.146/DEBUG: 题库导出成功!
+2026-05-27 09:25:14.294/DEBUG: true
+2026-05-27 09:25:14.848/DEBUG: 已连续答对7题
+2026-05-27 09:25:17.025/DEBUG: 随机延时了2174毫秒
+2026-05-27 09:25:17.055/DEBUG: 题目:关于纽曼健康系统模式的各防线下列描述错误的是
+2026-05-27 09:25:17.264/INFO: 答案：正常防线抵抗压力源无效时，抵抗线被激活
+2026-05-27 09:25:17.302/DEBUG: 2写入题库
+2026-05-27 09:25:17.306/DEBUG: 题库导出成功!
+2026-05-27 09:25:17.471/DEBUG: true
+2026-05-27 09:25:18.125/DEBUG: 已连续答对8题
+2026-05-27 09:25:20.398/DEBUG: 随机延时了2269毫秒
+2026-05-27 09:25:20.433/DEBUG: 题目:病人女45岁子宫全切术后第2天病人诉说腹部疼痛针对该病人疼痛的护理措施错误的是
+2026-05-27 09:25:20.638/INFO: 答案：为减轻病人疼痛，尽量不翻身或咳嗽
+2026-05-27 09:25:20.679/DEBUG: 2写入题库
+2026-05-27 09:25:20.684/DEBUG: 题库导出成功!
+2026-05-27 09:25:20.836/DEBUG: true
+2026-05-27 09:25:21.492/DEBUG: 已连续答对9题
+2026-05-27 09:25:23.606/DEBUG: 随机延时了2110毫秒
+2026-05-27 09:25:23.623/DEBUG: 题目:低蛋白饮食是指成人饮食中每日蛋白质最高含量不超过
+2026-05-27 09:25:23.835/INFO: 答案：0.8g/kg
+2026-05-27 09:25:23.855/DEBUG: 2写入题库
+2026-05-27 09:25:23.858/DEBUG: 题库导出成功!
+2026-05-27 09:25:23.996/DEBUG: true
+2026-05-27 09:25:24.470/DEBUG: 已连续答对10题
+2026-05-27 09:25:26.886/DEBUG: 随机延时了2413毫秒
+2026-05-27 09:25:26.915/DEBUG: 题目:意识完全丧失对各种刺激均无反应全身肌肉松弛深浅反射均消失其处于的意识状态是
+2026-05-27 09:25:27.121/INFO: 答案：深昏迷
+2026-05-27 09:25:27.152/DEBUG: 2写入题库
+2026-05-27 09:25:27.157/DEBUG: 题库导出成功!
+2026-05-27 09:25:27.300/DEBUG: true
+2026-05-27 09:25:27.823/DEBUG: 已连续答对11题
+2026-05-27 09:25:29.854/DEBUG: 随机延时了2027毫秒
+2026-05-27 09:25:29.882/DEBUG: 题目:病人女38岁因交通事故行截肢手术术后仍认为自己是舞蹈教师继续参加舞蹈兴趣班的各项活动此行为体现的自我概念是
+2026-05-27 09:25:30.089/INFO: 答案：自我特征
+2026-05-27 09:25:30.113/DEBUG: 2写入题库
+2026-05-27 09:25:30.117/DEBUG: 题库导出成功!
+2026-05-27 09:25:30.259/DEBUG: true
+2026-05-27 09:25:30.865/DEBUG: 已连续答对12题
+2026-05-27 09:25:33.193/DEBUG: 随机延时了2323毫秒
+2026-05-27 09:25:33.224/DEBUG: 题目:休克病人的卧位姿势是
+2026-05-27 09:25:33.433/INFO: 答案：头胸部抬高.10°~20°，下肢抬高20°~30°
+2026-05-27 09:25:33.460/DEBUG: 2写入题库
+2026-05-27 09:25:33.463/DEBUG: 题库导出成功!
+2026-05-27 09:25:33.591/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:25:36.085/DEBUG: 已连续答对13题
+2026-05-27 09:25:38.408/DEBUG: 随机延时了2321毫秒
+2026-05-27 09:25:38.436/DEBUG: 题目:由责任护士对病人的身心健康实施有计划有目的的整体护理属于
+2026-05-27 09:25:38.642/INFO: 答案：责任制护理
+2026-05-27 09:25:38.675/DEBUG: 2写入题库
+2026-05-27 09:25:38.678/DEBUG: 题库导出成功!
+2026-05-27 09:25:38.822/DEBUG: true
+2026-05-27 09:25:39.287/DEBUG: 已连续答对14题
+2026-05-27 09:25:41.322/DEBUG: 随机延时了2032毫秒
+2026-05-27 09:25:41.406/DEBUG: 题目:需2024保存保存期为24小时的血液制品是
+2026-05-27 09:25:41.613/INFO: 答案：血小板浓缩悬液
+2026-05-27 09:25:41.643/DEBUG: 2写入题库
+2026-05-27 09:25:41.648/DEBUG: 题库导出成功!
+2026-05-27 09:25:41.790/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:25:42.350/DEBUG: 已连续答对15题
+2026-05-27 09:25:44.440/DEBUG: 随机延时了2087毫秒
+2026-05-27 09:25:44.472/DEBUG: 题目:休克病人的卧位姿势是
+2026-05-27 09:25:44.686/INFO: 答案：头胸部抬高.10°~20°，下肢抬高20°~30°
+2026-05-27 09:25:44.720/DEBUG: 2写入题库
+2026-05-27 09:25:44.726/DEBUG: 题库导出成功!
+2026-05-27 09:25:44.856/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:25:47.564/DEBUG: 已连续答对16题
+2026-05-27 09:25:49.739/DEBUG: 随机延时了2171毫秒
+2026-05-27 09:25:49.762/DEBUG: 题目:需2024保存保存期为24小时的血液制品是
+2026-05-27 09:25:49.968/INFO: 答案：血小板浓缩悬液
+2026-05-27 09:25:49.994/DEBUG: 2写入题库
+2026-05-27 09:25:49.998/DEBUG: 题库导出成功!
+2026-05-27 09:25:50.141/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:25:50.886/DEBUG: 已连续答对17题
+2026-05-27 09:25:53.034/DEBUG: 随机延时了2146毫秒
+2026-05-27 09:25:53.065/DEBUG: 题目:休克病人的卧位姿势是
+2026-05-27 09:25:53.277/INFO: 答案：头胸部抬高.10°~20°，下肢抬高20°~30°
+2026-05-27 09:25:53.305/DEBUG: 2写入题库
+2026-05-27 09:25:53.308/DEBUG: 题库导出成功!
+2026-05-27 09:25:53.448/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:25:56.097/DEBUG: 已连续答对18题
+2026-05-27 09:25:58.416/DEBUG: 随机延时了2317毫秒
+2026-05-27 09:25:58.440/DEBUG: 题目:需2024保存保存期为24小时的血液制品是
+2026-05-27 09:25:58.640/INFO: 答案：血小板浓缩悬液
+2026-05-27 09:25:58.668/DEBUG: 2写入题库
+2026-05-27 09:25:58.674/DEBUG: 题库导出成功!
+2026-05-27 09:25:58.800/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:25:59.307/DEBUG: 已连续答对19题
+2026-05-27 09:26:01.387/DEBUG: 随机延时了2077毫秒
+2026-05-27 09:26:01.419/DEBUG: 题目:休克病人的卧位姿势是
+2026-05-27 09:26:01.628/INFO: 答案：头胸部抬高.10°~20°，下肢抬高20°~30°
+2026-05-27 09:26:01.662/DEBUG: 2写入题库
+2026-05-27 09:26:01.666/DEBUG: 题库导出成功!
+2026-05-27 09:26:01.806/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:26:04.492/DEBUG: 已连续答对20题
+2026-05-27 09:26:06.744/DEBUG: 随机延时了2249毫秒
+2026-05-27 09:26:06.768/DEBUG: 题目:需2024保存保存期为24小时的血液制品是
+2026-05-27 09:26:06.973/INFO: 答案：血小板浓缩悬液
+2026-05-27 09:26:07.011/DEBUG: 2写入题库
+2026-05-27 09:26:07.015/DEBUG: 题库导出成功!
+2026-05-27 09:26:07.150/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:26:07.924/DEBUG: 已连续答对21题
+2026-05-27 09:26:10.373/DEBUG: 随机延时了2445毫秒
+2026-05-27 09:26:10.400/DEBUG: 题目:休克病人的卧位姿势是
+2026-05-27 09:26:10.608/INFO: 答案：头胸部抬高.10°~20°，下肢抬高20°~30°
+2026-05-27 09:26:10.634/DEBUG: 2写入题库
+2026-05-27 09:26:10.639/DEBUG: 题库导出成功!
+2026-05-27 09:26:10.779/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:26:13.486/DEBUG: 已连续答对22题
+2026-05-27 09:26:15.968/DEBUG: 随机延时了2478毫秒
+2026-05-27 09:26:16.000/DEBUG: 题目:需2024保存保存期为24小时的血液制品是
+2026-05-27 09:26:16.199/INFO: 答案：血小板浓缩悬液
+2026-05-27 09:26:16.227/DEBUG: 2写入题库
+2026-05-27 09:26:16.232/DEBUG: 题库导出成功!
+2026-05-27 09:26:16.368/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:26:19.007/DEBUG: 已连续答对23题
+2026-05-27 09:26:21.453/DEBUG: 随机延时了2443毫秒
+2026-05-27 09:26:21.476/DEBUG: 题目:需2024保存保存期为24小时的血液制品是
+2026-05-27 09:26:21.687/INFO: 答案：血小板浓缩悬液
+2026-05-27 09:26:21.706/DEBUG: 2写入题库
+2026-05-27 09:26:21.710/DEBUG: 题库导出成功!
+2026-05-27 09:26:21.838/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:26:28.469/DEBUG: 已连续答对24题
+2026-05-27 09:26:30.941/DEBUG: 随机延时了2470毫秒
+2026-05-27 09:26:31.029/DEBUG: 题目:使用时需放在37温水中融化的血液制品是
+2026-05-27 09:26:31.235/INFO: 答案：冰冻血浆
+2026-05-27 09:26:31.271/DEBUG: 2写入题库
+2026-05-27 09:26:31.275/DEBUG: 题库导出成功!
+2026-05-27 09:26:31.421/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:26:31.937/DEBUG: 已连续答对25题
+2026-05-27 09:26:33.967/DEBUG: 随机延时了2028毫秒
+2026-05-27 09:26:33.996/DEBUG: 题目:下列关于疼痛的描述正确的是
+2026-05-27 09:26:34.201/INFO: 答案：成年人比婴幼儿对疼痛的敏感性更强
+2026-05-27 09:26:34.238/DEBUG: 2写入题库
+2026-05-27 09:26:34.243/DEBUG: 题库导出成功!
+2026-05-27 09:26:34.392/DEBUG: true
+2026-05-27 09:26:34.919/DEBUG: 已连续答对26题
+2026-05-27 09:26:36.937/DEBUG: 随机延时了2016毫秒
+2026-05-27 09:26:36.970/DEBUG: 题目:胆囊疾病可引起右肩部疼痛用系统的基本属性解释此现象反映系统的
+2026-05-27 09:26:37.178/INFO: 答案：相关性
+2026-05-27 09:26:37.196/DEBUG: 2写入题库
+2026-05-27 09:26:37.200/DEBUG: 题库导出成功!
+2026-05-27 09:26:37.321/DEBUG: true
+2026-05-27 09:26:37.908/DEBUG: 已连续答对27题
+2026-05-27 09:26:40.338/DEBUG: 随机延时了2428毫秒
+2026-05-27 09:26:40.362/DEBUG: 题目:属于生理性需要的是
+2026-05-27 09:26:40.570/INFO: 答案：呼吸、食物、排泄、睡眠
+2026-05-27 09:26:40.598/DEBUG: 2写入题库
+2026-05-27 09:26:40.601/DEBUG: 题库导出成功!
+2026-05-27 09:26:40.738/DEBUG: true
+2026-05-27 09:26:41.408/DEBUG: 已连续答对28题
+2026-05-27 09:26:43.593/DEBUG: 随机延时了2182毫秒
+2026-05-27 09:26:43.676/DEBUG: 题目:关于无菌持物钳的使用原则下列描述正确的是
+2026-05-27 09:26:43.886/INFO: 答案：不可到远处取物品以免污染
+2026-05-27 09:26:43.914/DEBUG: 2写入题库
+2026-05-27 09:26:43.918/DEBUG: 题库导出成功!
+2026-05-27 09:26:44.058/DEBUG: true
+2026-05-27 09:26:44.774/DEBUG: 已连续答对29题
+2026-05-27 09:26:46.804/DEBUG: 随机延时了2027毫秒
+2026-05-27 09:26:46.820/DEBUG: 题目:关于导尿操作下列描述错误的是
+2026-05-27 09:26:47.012/INFO: 答案：如导尿管误入阴道，应立即拔出重新插入
+2026-05-27 09:26:47.031/DEBUG: 2写入题库
+2026-05-27 09:26:47.034/DEBUG: 题库导出成功!
+2026-05-27 09:26:47.171/DEBUG: true
+2026-05-27 09:26:47.689/DEBUG: 已连续答对30题
+2026-05-27 09:26:49.728/DEBUG: 随机延时了2037毫秒
+2026-05-27 09:26:49.750/DEBUG: 题目:上臂肌内注射的部位是
+2026-05-27 09:26:49.961/INFO: 答案：上臂外侧肩峰下2~3横指
+2026-05-27 09:26:49.987/DEBUG: 2写入题库
+2026-05-27 09:26:49.991/DEBUG: 题库导出成功!
+2026-05-27 09:26:50.140/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:26:50.886/DEBUG: 已连续答对31题
+2026-05-27 09:26:52.976/DEBUG: 随机延时了2086毫秒
+2026-05-27 09:26:53.008/DEBUG: 题目:急性肺水肿病人吸氧时湿化瓶内用2030乙醇的目的是
+2026-05-27 09:26:53.219/INFO: 答案：降低肺泡内泡沫的表面张力
+2026-05-27 09:26:53.254/DEBUG: 2写入题库
+2026-05-27 09:26:53.258/DEBUG: 题库导出成功!
+2026-05-27 09:26:53.414/DEBUG: 未找到相应答案，随机点击!
+2026-05-27 09:26:53.964/DEBUG: 已连续答对32题
+2026-05-27 09:26:56.326/DEBUG: 随机延时了2360毫秒
+2026-05-27 09:26:56.360/DEBUG: 题目:病人女62岁乳腺癌术后伤口疼痛护士对该病人进行健康教育错误的是
+2026-05-27 09:26:56.576/INFO: 答案：嘱病人坚强，尽量忍耐疼痛
+2026-05-27 09:26:56.603/DEBUG: 2写入题库
+2026-05-27 09:26:56.609/DEBUG: 题库导出成功!
+2026-05-27 09:26:56.756/DEBUG: true
+2026-05-27 09:26:57.323/DEBUG: 已连续答对33题
+2026-05-27 09:26:59.786/DEBUG: 随机延时了2460毫秒
+2026-05-27 09:26:59.816/DEBUG: 题目:急性消化道疾病病人宜采用的饮食是
+2026-05-27 09:27:00.024/INFO: 答案：流质饮食
+2026-05-27 09:27:00.049/DEBUG: 2写入题库
+2026-05-27 09:27:00.053/DEBUG: 题库导出成功!
+2026-05-27 09:27:00.200/DEBUG: true
+2026-05-27 09:27:00.735/DEBUG: 已连续答对34题
+2026-05-27 09:27:02.830/DEBUG: 随机延时了2092毫秒
+2026-05-27 09:27:02.861/DEBUG: 题目:关于纽曼健康系统模式中的预防下列描述正确的是
+2026-05-27 09:27:03.069/INFO: 答案：一级预防的目的是防止压力源侵入正常防线
+2026-05-27 09:27:03.105/DEBUG: 2写入题库
+2026-05-27 09:27:03.110/DEBUG: 题库导出成功!
+2026-05-27 09:27:03.249/DEBUG: true
+2026-05-27 09:27:03.735/DEBUG: 已连续答对35题
+2026-05-27 09:27:05.944/DEBUG: 随机延时了2207毫秒
+2026-05-27 09:27:05.962/DEBUG: 题目:因抢救病人未能及时书写病历时应在抢救结束多长时间内据实补记
+2026-05-27 09:27:06.167/INFO: 答案：6小时
+2026-05-27 09:27:06.186/DEBUG: 2写入题库
+2026-05-27 09:27:06.190/DEBUG: 题库导出成功!
+2026-05-27 09:27:06.316/DEBUG: true
+2026-05-27 09:27:06.739/DEBUG: 已连续答对36题
+2026-05-27 09:27:08.784/DEBUG: 随机延时了2043毫秒
+2026-05-27 09:27:08.837/DEBUG: 题目:病人男60岁因慢性支气管炎住院治疗为帮助病人祛痰给予氧气雾化吸入下列操作错误的是
+2026-05-27 09:27:09.043/INFO: 答案：湿化瓶内加入蒸馏水
+2026-05-27 09:27:09.064/DEBUG: 2写入题库
+2026-05-27 09:27:09.068/DEBUG: 题库导出成功!
+2026-05-27 09:27:09.197/DEBUG: true
+2026-05-27 09:27:09.608/DEBUG: 已连续答对37题
+2026-05-27 09:27:12.038/DEBUG: 随机延时了2427毫秒
+2026-05-27 09:27:12.135/DEBUG: 题目:胰岛素注射应采用
+2026-05-27 09:27:12.346/INFO: 答案：皮下注射
+2026-05-27 09:27:12.372/DEBUG: 2写入题库
+2026-05-27 09:27:12.376/DEBUG: 题库导出成功!
+2026-05-27 09:27:12.522/DEBUG: true
+2026-05-27 09:27:13.094/DEBUG: 已连续答对38题
+2026-05-27 09:27:15.519/DEBUG: 随机延时了2423毫秒
+2026-05-27 09:27:15.548/DEBUG: 题目:病室内适宜的温度和相对湿度应保持在
+2026-05-27 09:27:15.761/INFO: 答案：18~22℃，50%~60%
+2026-05-27 09:27:15.801/DEBUG: 2写入题库
+2026-05-27 09:27:15.806/DEBUG: 题库导出成功!
+2026-05-27 09:27:15.952/DEBUG: true
+2026-05-27 09:27:18.441/DEBUG: 已连续答对39题
+2026-05-27 09:27:20.360/DEBUG: SELECT question,answer FROM tiku ORDER BY rowid DESC limit 20
+2026-05-27 09:27:20.873/DEBUG: 随机延时了2376毫秒
+2026-05-27 09:27:28.794/DEBUG: 已经是最后一条了！
+2026-05-27 09:27:28.977/DEBUG: 已经是最后一条了！
+2026-05-27 09:27:29.160/DEBUG: 已经是最后一条了！
+2026-05-27 09:27:29.327/DEBUG: 已经是最后一条了！
+2026-05-27 09:27:34.672/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/上传日志.js]
