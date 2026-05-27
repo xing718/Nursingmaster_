@@ -2701,3 +2701,4 @@ java.lang.SecurityException: 没有悬浮窗权限
 2026-05-27 09:27:29.160/DEBUG: 已经是最后一条了！
 2026-05-27 09:27:29.327/DEBUG: 已经是最后一条了！
 2026-05-27 09:27:34.672/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/上传日志.js]
+2026-05-27 09:27:37.719/TRACE: 开始运行[/data/user/0/com.xx.xzsgf/files/project/上传日志.js]
